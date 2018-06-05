@@ -1,5 +1,5 @@
 ---
-title: "TORIP"
+title: "Torip"
 date: 2015-10-31
 url: /blog/torip
 ---
