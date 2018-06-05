@@ -5,6 +5,7 @@ title = "mendrugory.com"
 disqusShortname = "*****"
 paginate = 5
 
+
 [taxonomies]
 	tag = "tags"
 	tutorial = "tutorials"
