@@ -1,4 +1,4 @@
-BaseURL = "https://hardcore-jepsen-917685.netlify.com"
+BaseURL = "https://hardcore-jepsen-917685.netlify.com/"
 relativeURLs = false
 languageCode = "en-us"
 title = "mendrugory.com"
