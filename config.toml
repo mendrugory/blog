@@ -1,0 +1,58 @@
+BaseURL = "http://localhost:1313"
+relativeURLs = false
+languageCode = "en-us"
+title = "mendrugory.com"
+disqusShortname = "*****"
+paginate = 5
+
+[taxonomies]
+	tag = "tags"
+	tutorial = "tutorials"
+
+[params]
+	# Render the rotating globe in the sidebar
+	showglobe = true
+
+	# Include favicon
+	favicon = "favicon.ico"
+ 	
+	# Google Analytics
+	analytics = "SHORT-CODE-HERE"
+
+	# Email (optional)
+	email = "mendrugory@gmail.com"
+	
+	# Header Title for the main page
+	header = "Mendrugory's web"
+	
+	# Sidebar profile picture
+	profilepic = "img/profile.png"
+	
+	# Title/subtitle for the sidebar
+	title = "Gonzalo Gabriel Jiménez Fuentes"
+	subtitle = "Software Consultant"
+	
+	# Social buttons for sidebar
+	# Each of these are optional
+	[[params.socialbuttons]]
+	faicon = "github"
+	url = "https://github.com/mendrugory"
+	[[params.socialbuttons]]
+	faicon = "twitter"
+	url = "https://twitter.com/mendrugory"
+	[[params.socialbuttons]]
+	faicon = "linkedin"
+	url = "https://www.linkedin.com/in/gonzalogabrieljimenezfuentes/"
+
+	# Nav links below the profile picture
+	[[params.navlinks]]
+	name = "About"
+	url = "about/"
+	
+	[[params.navlinks]]
+	name = "Blog"
+	url = "post/"
+	
+	[[params.navlinks]]
+	name = "Tutorials"
+	url = "tutorial/"
