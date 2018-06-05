@@ -1,2 +1,2 @@
 # blog
-blog
+Mendrugory's blog
