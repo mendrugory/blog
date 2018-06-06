@@ -12,6 +12,6 @@ I have been also using the nickname _mendrugory_ since I had access to Internet,
 
 Otherwise, today everything changed. I extracted all the info from my old blog using this [code](https://github.com/mendrugory/weebly-scraper), I created a hugo project, I bought the domain and I deployed it using [Netlify](https://www.netlify.com) (by the way, really easy tool).
 
-Moving my [cv](https://mendrugory.github.io) inside this website is in my _To-Do list_.
+Moving my [cv](https://mendrugory.github.io) into this website is in my _To-Do list_.
 
 I will try to post more frequently.

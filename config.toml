@@ -2,7 +2,7 @@ BaseURL = "https://www.mendrugory.com/"
 relativeURLs = false
 languageCode = "en-us"
 title = "mendrugory.com"
-disqusShortname = "mendrugory"
+disqusShortname = "@mendrugory "
 paginate = 5
 
 
