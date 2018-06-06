@@ -1,59 +1,50 @@
 BaseURL = "https://www.mendrugory.com/"
-relativeURLs = false
+relativeURLs = true
 languageCode = "en-us"
 title = "mendrugory.com"
 disqusShortname = "@mendrugory "
-paginate = 5
+enableRobotsTXT = true
+PygmentsCodeFences = true
+canonifyurls = true
 
+copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce."
+	
 
-[taxonomies]
-	tag = "tags"
-	tutorial = "tutorials"
+# Initial site menu, you can extend menu with content.
+[[menu.main]]
+  name = "Blog"
+  weight = 20
+  identifier = "post"
+  url = "/post/"
 
+# Add your own params here
 [params]
-	# Render the rotating globe in the sidebar
-	showglobe = true
+  author = "Gonzalo"
+  avatar = "/img/avatar.jpg"
+  seotitle = "Mendrugory's Web"
+  subtitle = "~ A place to share ~"
+  description = "Mendrugory's blog."
+  paginate = 10
 
-	# Include favicon
-	favicon = "favicon.ico"
- 	
-	# Google Analytics
-	analytics = "SHORT-CODE-HERE"
-
-	# Email (optional)
-	email = "iam@mendrugory.com"
-	
-	# Header Title for the main page
-	header = "Mendrugory's web"
-	
-	# Sidebar profile picture
-	profilepic = "img/profile.png"
-	
-	# Title/subtitle for the sidebar
-	title = "Mendrugory"
-	subtitle = "Software Consultant"
-	
-	# Social buttons for sidebar
-	# Each of these are optional
-	[[params.socialbuttons]]
-	faicon = "github"
-	url = "https://github.com/mendrugory"
-	[[params.socialbuttons]]
-	faicon = "twitter"
-	url = "https://twitter.com/mendrugory"
-	[[params.socialbuttons]]
-	faicon = "linkedin"
-	url = "https://www.linkedin.com/in/gonzalogabrieljimenezfuentes/"
-
-	# Nav links below the profile picture
-	[[params.navlinks]]
-	name = "About"
-	url = "about/"
-	
-	[[params.navlinks]]
-	name = "Blog"
-	url = "post/"
-	
-	[[params.navlinks]]
-	name = "Tutorials"
-	url = "tutorial/"
+  # Choose your social networks
+  email = "iam@mendrugory.com"
+  github = "mendrugory"
+  twitter = "mendrugory"
+  linkedin = "gonzalogabrieljimenezfuentes"
+  # weibo = "weibo_username"
+  # wechat= "/img/qrcode.jpg" # Replace with your wechat qrcode image
+  # facebook = "facebook_username"
+  # google = "googlplus_id_number"
+  # instagram = "instagram_username"
+  # youtube = "youtube_username"
+  # vimeo = "vimeo_username"
+  # medium = "medium_username"
+  # quora = "quora_username"
+  # pinterest = "pinterest_username"
+  # dribbble = "dribbble_username"
+  # behance = "behance_username"
+  # jsfiddle = "jsfiddle_username"
+  # codepen = "codepen_username"
+  # zhihu = "zhihu_username"
+  # douban = "douban_username"
+  # bilibili = "bilibili_id_number"

@@ -1,8 +1,7 @@
 ---
 title: "RabbitMQ + Elixir + Ease = Conejo"
 date: 2016-12-03
-url: /tutorial/rabbitmq-elixir-ease-conejo
-tags: ["tutorial"]
+url: /post/rabbitmq-elixir-ease-conejo
 index: true
 ---
 

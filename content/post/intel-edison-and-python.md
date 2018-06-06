@@ -1,8 +1,7 @@
 ---
 title: "Intel Edison and Python"
 date: 2015-03-07
-url: /tutorial/intel-edison-and-python
-tags: ["tutorial"]
+url: /post/intel-edison-and-python
 index: true
 ---
 

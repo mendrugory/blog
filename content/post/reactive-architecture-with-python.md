@@ -1,8 +1,7 @@
 ---
 title: "Reactive Architecture with Python"
 date: 2016-03-26
-url: /tutorial/reactive-architecture-with-python
-tags: ["tutorial"]
+url: /post/reactive-architecture-with-python
 index: true
 ---
 

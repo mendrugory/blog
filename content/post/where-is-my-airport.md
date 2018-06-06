@@ -1,8 +1,7 @@
 ---
 title: "Where is my Airport?"
 date: 2014-10-26
-url: /tutorial/where-is-my-airport
-tags: ["tutorial"]
+url: /post/where-is-my-airport
 index: true
 ---
 

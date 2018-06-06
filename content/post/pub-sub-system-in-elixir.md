@@ -1,8 +1,7 @@
 ---
 title: "Pub-Sub System in Elixir"
 date: 2016-05-16
-url: /tutorial/pub-sub-system-in-elixir
-tags: ["tutorial"]
+url: /post/pub-sub-system-in-elixir
 index: true
 ---
 

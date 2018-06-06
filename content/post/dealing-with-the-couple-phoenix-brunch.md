@@ -1,8 +1,7 @@
 ---
 title: "Dealing with the couple Phoenix & Brunch"
 date: 2017-02-11
-url: /tutorial/dealing-with-the-couple-phoenix-brunch
-tags: ["tutorial"]
+url: /post/dealing-with-the-couple-phoenix-brunch
 index: true
 ---
 

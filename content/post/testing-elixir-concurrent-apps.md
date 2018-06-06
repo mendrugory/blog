@@ -1,8 +1,7 @@
 ---
 title: "Testing Elixir Concurrent Apps"
 date: 2017-03-30
-url: /tutorial/testing-elixir-concurrent-apps
-tags: ["tutorial"]
+url: /post/testing-elixir-concurrent-apps
 index: true
 ---
 

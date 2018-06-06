@@ -1,8 +1,7 @@
 ---
 title: "Twitter Analytics in real time"
 date: 2014-09-12
-url: /tutorial/twitter-analytics-in-real-time
-tags: ["tutorial"]
+url: /post/twitter-analytics-in-real-time
 index: true
 ---
 

@@ -1,8 +1,7 @@
 ---
 title: "My First ChatBot"
 date: 2016-05-12
-url: /tutorial/my-first-chatbot
-tags: ["tutorial"]
+url: /post/my-first-chatbot
 index: true
 ---
 
