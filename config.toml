@@ -1,4 +1,4 @@
-BaseURL = "https://www.mendrugory.com/"
+BaseURL = "http://localhost:1313/"#"https://www.mendrugory.com/"
 relativeURLs = true
 languageCode = "en-us"
 title = "mendrugory.com"
