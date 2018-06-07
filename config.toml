@@ -7,6 +7,7 @@ enableRobotsTXT = true
 PygmentsCodeFences = true
 canonifyurls = true
 enableEmoji = true
+googleAnalytics = "UA-120514459-1"
 
 copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce."
 	
@@ -38,6 +39,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   github = "mendrugory"
   twitter = "mendrugory"
   linkedin = "gonzalogabrieljimenezfuentes"
+  stackoverflow = "mendrugory"
   # weibo = "weibo_username"
   # wechat= "/img/qrcode.jpg" # Replace with your wechat qrcode image
   # facebook = "facebook_username"
