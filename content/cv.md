@@ -1,0 +1,165 @@
++++
+date = "2015-07-28"
+draft = false
+layout = "about"
+title = "CV"
+menu = "main"
+weight = 30
+comments = false
++++
+
+# Gonzalo Gabriel Jiménez Fuentes
+
+__Software Consultant__
+
+I enjoy solving problems using Software. I have created code for very different devices and machines: servers, PCs, mobiles, microcontrollers, PLCs and so on. This fact has made to deal with a large range of problems and paradigms, but always taking into account scalability, resilience and fault tolerance. You can find my code running in a data center, in your mobile phone or even in an airport. My Background is in Telecom therefore I like the projects that involve real-time, networking, messaging, concurrency and so on.
+I also like to share my knowledge publishing posts in my blog and releasing my open source projects.
+
+</br></br>
+
+## Experience
+
+### Software Consultant
+
+_Software Consultant_ • Jan, 2018 — Present
+
+I help my customers to design, build and maintain real-time applications.
+  
+* Software Development
+* Devops
+* Tech Consultant
+* Trainings
+* HR Tech Partner
+
+Technologies: _Elixir, Erlang, OTP, Mnesia, Rust, Go, Python, Javascript, Elm, Nginx, Docker, DC/OS, Mesos, Marathon, Zookeeper, Kubernetes, Azure, GCP, AWS, Ansible, Vagrant, MongoDB, PostgreSQL, MySQL, RabbitMQ, 0MQ, Kafka_.
+
+Check out the [professional web](https://www.ananalab.com).
+
+</br>
+
+### Palmtree Statistics
+
+_Chief SW Architect_ • Oct, 2016 — Dec, 2017
+
+I continued with my tasks as SW Engineer but I was more focus on helping other colleagues, improve the architecture to include new use cases, increase the reliability of all the applications and automate processes. I also helped in other business related tasks.
+
+Technologies: _Elixir, Erlang, OTP, Python, Nginx, AngularJS, Javascript, Docker, Mesos, Marathon, Zookeeper, MongoDB, PostgreSQL, MySQL, RabbitMQ, 0MQ_.
+
+</br>
+
+### Palmtree Statistics
+
+_Senior SW Engineer_ • Sep, 2015 — Sep, 2016
+
+I created all the tech environment of Palmtree Statistics to later design, develop and maintain on production SW solutions to help professional sport traders.
+
+Technologies: _Elixir, Erlang, OTP, Python, Nginx, AngularJS, Javascript, Docker, Mesos, Marathon, Zookeeper, MongoDB, MySQL, RabbitMQ, 0MQ_.
+
+</br>
+
+### Freelance Engineer
+
+_Freelance Engineer_ • Aug, 2013 — Aug, 2015
+
+I collaborated in different part-time projects with several companies:
+
+* Platform for data analysis in soft real time.
+* Control system of video cameras and weather switchboards.
+* Android Application for surveillance system.
+
+Technologies: _Java, Android, Python, AngularJS, MongoDB, Nginx_.
+
+</br>
+
+### Ericsson
+
+_R&D Engineer_ • Jun, 2011 — Aug, 2015
+
+I worked in several agile teams distributed around the world developing SW tools which were used to optimize mobile (GSM, UMTS and LTE) networks of several vendors. Information traces of the network nodes were analyzed in order to identify and geo-locate issues.
+
+Technologies: _Java, C++, Python, MySQL, GSM, UMTS, LTE_.
+
+</br>
+
+### Ciat
+
+_Control & Communications Engineer_ • Oct, 2009 — Jun, 2011
+
+I worked in a cross-functional team to develop industrail HVAC solutions where my responsability was Software and Hardware related. Start-ups, on-site updates and trainings were also my tasks.
+
+Technologies: _C/C++, Matlab, Pascal, Ladder, Javascript_.
+
+</br></br>
+
+## Education
+
+### Málaga University
+__BSc and MSc Telecommunication Engineering__
+_2003 — 2010_
+
+</br>
+
+### Polytech'Lille
+__Ingénieur de Informatique, Microeléctronique et Automatique__ (Erasmus grant)
+_2007 — 2008_
+
+</br>
+
+### Conservatorio Superior de Música de Málaga
+__Medium Degree in Violin__
+_2003 — 2006_
+
+</br>
+
+### Conservatorio Superior de Música de Córdoba
+__Medium Degree in Violin__
+_2003 — 2003_
+
+</br>
+
+### Conservatorio Elemental de Música de Montilla
+__Basic Degree in Violin__
+_1995 — 2000_
+
+</br></br>
+
+## Languages
+
+* Spanish
+* English
+* French
+
+</br></br>
+
+## Open Source Projects
+
+### [Piton](https://hex.pm/packages/piton)
+
+Piton runs a high available pool of "Pythons" in order to help you with the GIL.</br></br>
+
+### [Conejo](https://hex.pm/packages/conejo)
+
+Open Source Elixir - OTP Application which will help you to work with RabbitMQ.</br></br>
+
+### [Galena](https://hex.pm/packages/galena)
+
+Galena is a topic producer-consumer library built on top of GenStage for Elixir.</br></br>
+
+### [EnchufeWeb](https://hex.pm/packages/enchufeweb)
+
+Websocket Library written in Elixir.</br></br>
+
+### [Barenboim](https://hex.pm/packages/barenboim)
+
+Barenboim is an Elixir library which will help you with data streaming dependencies in concurrent flows.</br></br>
+
+### [MonkeyNoteBot](http://telegram.me/MonkeyNoteBot)
+
+MonkeyNoteBot is a ChatBot for Telegram which will help you to manage your lists of notes.</br></br>
+
+### [Torip](https://pypi.python.org/pypi/torip/0.1.5)
+
+Open Source Python library for Tornado web framework to locate IPs or server names.</br></br>
+
+
+Visit my [Github](https://github.com/mendrugory) account to find more projects.

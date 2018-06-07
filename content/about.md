@@ -4,7 +4,7 @@ draft = false
 layout = "about"
 title = "About Me"
 menu = "main"
-weight = 50
+weight = 40
 comments = false
 +++
 

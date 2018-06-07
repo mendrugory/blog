@@ -13,9 +13,15 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
 # Initial site menu, you can extend menu with content.
 [[menu.main]]
   name = "Blog"
-  weight = 20
+  weight = 10
   identifier = "post"
   url = "/post/"
+
+[[menu.main]]
+  name = "Work"
+  weight = 20
+  identifier = "work"
+  url = "https://www.ananalab.com"
 
 # Add your own params here
 [params]
