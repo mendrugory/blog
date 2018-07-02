@@ -1,7 +1,7 @@
 ---
 title: "Micro-Services, Mesos, Marathon, Docker and Auto-Discovery"
 date: 2016-08-26
-url: /blog/micro-services-mesos-marathon-docker-and-auto-discovery
+url: /post/micro-services-mesos-marathon-docker-and-auto-discovery
 ---
 
 <div class="blog-content">

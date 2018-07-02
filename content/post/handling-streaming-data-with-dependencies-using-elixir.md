@@ -1,7 +1,7 @@
 ---
 title: "Handling Streaming Data with Dependencies using Elixir"
 date: 2017-04-10
-url: /blog/handling-streaming-data-with-dependencies-using-elixir
+url: /post/handling-streaming-data-with-dependencies-using-elixir
 ---
 
 <div class="blog-content">

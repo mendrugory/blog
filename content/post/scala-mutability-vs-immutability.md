@@ -1,7 +1,7 @@
 ---
 title: "Scala: Mutability vs Immutability"
 date: 2016-08-26
-url: /blog/scala-mutability-vs-immutability
+url: /post/scala-mutability-vs-immutability
 ---
 
 <div class="blog-content">

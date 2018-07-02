@@ -1,7 +1,7 @@
 ---
 title: "The Rise Of Microservices"
 date: 2016-01-03
-url: /blog/the-rise-of-microservices
+url: /post/the-rise-of-microservices
 ---
 
 <div class="blog-content">

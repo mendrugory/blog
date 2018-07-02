@@ -1,7 +1,7 @@
 ---
 title: "Welcome Back"
 date: 2018-06-05
-url: /blog/welcome-back
+url: /post/welcome-back
 ---
 
 # New Web, let's start again

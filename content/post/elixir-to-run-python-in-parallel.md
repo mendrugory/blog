@@ -1,7 +1,7 @@
 ---
 title: "Elixir to Run Python in Parallel"
 date: 2017-06-01
-url: /blog/elixir-to-run-python-in-parallel
+url: /post/elixir-to-run-python-in-parallel
 ---
 
 <div class="blog-content">

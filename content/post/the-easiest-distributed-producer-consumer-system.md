@@ -1,7 +1,7 @@
 ---
 title: "The Easiest Distributed Producer-Consumer System"
 date: 2017-05-26
-url: /blog/the-easiest-distributed-producer-consumer-system
+url: /post/the-easiest-distributed-producer-consumer-system
 ---
 
 <div class="blog-content">
