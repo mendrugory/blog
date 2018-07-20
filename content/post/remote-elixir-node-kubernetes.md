@@ -54,7 +54,7 @@ Distributed Erlang uses TCP by default as and you know we need a port to open a 
 
 ## Erlang/Elixir and Kubernetes
 
-Networking in Kubernetes is not easy, especially when we have to make _special things_. The most important part in order to get our Erlang distributed cluster is to have a reliable way of getting the IP of the pods in order to be reacheble by other Erlang/Elixir nodes. StatefulSet will be the Kubernetes object that will be used. It provides a known name of the pod (__<name of the app>-<0..>.<selector>.default.svc.cluster.local__) which will be included as DNS entry.
+Networking in Kubernetes is not easy, especially when we have to make _special things_. The most important part in order to get our Erlang distributed cluster is to have a reliable way of getting the IP of the pods in order to be reacheble by other Erlang/Elixir nodes. [StatefulSet](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/) will be the Kubernetes object that will be used. It provides a known name of the pod (__<name of the app>-<0..>.<selector>.default.svc.cluster.local__) which will be included as DNS entry.
 Different environment variables will be included in the yaml definition:
 
 * ERL_PORT: The Erlang Port
