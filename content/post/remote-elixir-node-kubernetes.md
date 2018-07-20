@@ -137,7 +137,7 @@ kubectl port-forward --namespace=default app-0 4369 5555 &
 
 Now, we have the ports 4369 andd 5555 of the pod and of our machine connected.
 
-![Port Forwarding](/static/img/port_forwarding.png)
+![Port Forwarding](/img/port_forwarding.png)
 
 If we try to start a BEAM node, it will be registered in the epmd of the Kubernetes cluster. But how will connect our local node to the kubernetes node? We know the name "app" but, which IP should be used?
 
