@@ -50,7 +50,7 @@ iex(1)> Node.connect(:"otherapp@192.168.1.22")
 
 Distributed Erlang uses TCP by default as and you know we need a port to open a TCP socket. The node will request the port to the [epmd](http://erlang.org/doc/man/epmd.html) server which will be running in the machine whose IP is part of the long name of the node that we want to connect with. The epmd server runs on port 4369 by default.
 
-![Distributed Erlang](/static/img/distributed_erlang.png)
+![Distributed Erlang](/img/distributed_erlang.png)
 
 ## Erlang/Elixir and Kubernetes
 
