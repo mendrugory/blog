@@ -4,7 +4,7 @@ date: 2018-11-13
 url: /post/mesos-local-development
 ---
 
-Last week I felt so nostalgic about working with [Mesos](http://mesos.apache.org/) because I do not have more projects which work with these technology and people are only demanding [Kubernetes](http://kubernetes.io/).
+Last week I felt so nostalgic about working with [Mesos](http://mesos.apache.org/) because I do not have more projects which work with this technology and people are only demanding [Kubernetes](http://kubernetes.io/).
 
 Mesos is a project which was born in Berkeley, now under the [Apache umbrella](https://www.apache.org/index.html#projects-list), and whose target is the management of computer clusters. It will help us to create distributed systems with the feeling that we are only working with a really big machine. Mesos gather the resources of all the machines that join the cluster and take care of deploying the application in those places with enough resources.
 
