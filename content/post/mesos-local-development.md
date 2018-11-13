@@ -8,7 +8,7 @@ Last week I felt so nostalgic about working with [Mesos](http://mesos.apache.org
 
 Mesos is a project which was born in Berkeley, now under the [Apache umbrella](https://www.apache.org/index.html#projects-list), and whose target is the management of computer clusters. It will help us to create distributed systems with the feeling that we are only working with a really big machine. Mesos gather the resources of all the machines that join the cluster and take care of deploying the application in those places with enough resources.
 
-Mesos is so powerful and according to some studies, it can scale to huge number of nodes much better than Kubernetes. But we don't need to compare Mesos and Kubernetes, because according to [Mesosphere](https://mesosphere.com/blog/kubernetes-dcos/) guys, they can work together (one on top another).
+Mesos is so powerful and according to some studies, it can scale to huge number of nodes much better than Kubernetes. But we don't need to compare Mesos and Kubernetes, because according to [Mesosphere](https://mesosphere.com/blog/kubernetes-dcos/) guys, they can work together (one on top of another).
 
 I have been working with Mesos projects, and its orchestrator Marathon, for 3 years, and the results were really good, but the movement of the market is towards Kubernetes and we have to stay where the market says.
 
