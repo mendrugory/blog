@@ -10,9 +10,9 @@ Mesos is a project which was born in Berkeley, now under the [Apache umbrella](h
 
 Mesos is so powerful and according to some studies, it can scale to huge number of nodes much better than Kubernetes. But we don't need to compare Mesos and Kubernetes, because according to [Mesosphere](https://mesosphere.com/blog/kubernetes-dcos/) guys, they can work together (one on top of another).
 
-I have been working with Mesos projects, and its orchestrator Marathon, for 3 years, and the results were really good, but the movement of the market is towards Kubernetes and we have to stay where the market says.
+I have been working with Mesos projects, and its orchestrator [Marathon](https://mesosphere.github.io/marathon/), for 3 years, and the results were really good, but the movement of the market is towards Kubernetes and we have to stay where the market says.
 
-Therefore, I wanted to release a repository in Github which will launch 3 virtual machines as cluster where Mesos will run. This tool is useful for those guys who want to play with Mesos or to try your systems locally (if you can).
+Therefore, I wished to release an useful tool for those guys who want to play with Mesos or to try your systems locally (if you can). The project will launch 3 virtual machines which will be the Mesos cluster.
 
 ## Dependencies
 
@@ -56,6 +56,7 @@ I also installed [Docker](https://www.docker.com/), therefore we could try to la
 ![Nginx Marathon General](/img/nginx-marathon-1.png)
 
 ![Nginx Marathon General](/img/nginx-marathon-2.png)
+
 
 And after a while we will see:
 
