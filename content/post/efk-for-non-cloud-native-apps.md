@@ -8,9 +8,9 @@ Recently I worked in a project where I had to migrate a Mesos infrastructure to 
 
 You can find a lot of information of how to use EFK in Kubernetes when your applications logs in the standard output putting a Fluentd agent in every node, but that did not happen with all the applications in the Mesos infrastructure. Most of them used a specific file to log the information and had a custom log rotator. 
 
-I could not use the common way of using Fluentd and I could not modify the applications to change the log configuration, therefore my approach was to add a fluentd agent in every pod following the sidecar pattern and mount a volume to communicate the logs of the application with fluentd.
+I could not apply the common way of using Fluentd and I could not modify the applications to change the log configuration, therefore my approach was to add a fluentd agent in every pod following the sidecar pattern and mount a volume to communicate the logs of the application with fluentd.
 
-All the fluentd will act in the same way, so we can share the same configuration using a `ConfigMap`:
+All the fluentd agents will act in the same way, so we can share the same configuration using a `ConfigMap`:
 
 ```yaml
 apiVersion: v1
