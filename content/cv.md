@@ -31,7 +31,7 @@ I help my customers to design, build and maintain real-time applications.
 * Trainings
 * HR Tech Partner
 
-Technologies: _Elixir, Erlang, OTP, Mnesia, Rust, Go, Python, Javascript, Elm, Nginx, Docker, DC/OS, Mesos, Marathon, Zookeeper, Kubernetes, Azure, GCP, AWS, Ansible, Vagrant, MongoDB, PostgreSQL, MySQL, RabbitMQ, 0MQ, Kafka_.
+Technologies: _Docker, Kubernetes, Python, Go, Elixir, Erlang/OTP, Rust, Nginx, DC/OS, Mesos, Marathon, Zookeeper, AWS, Azure, GCP, Ansible, Vagrant, Jenkins, Gitlab, MongoDB, PostgreSQL, MySQL, RabbitMQ, 0MQ, Kafka_.
 
 Check out the [professional web](https://www.ananalab.com).
 
@@ -43,7 +43,7 @@ _Chief SW Architect_ • Oct, 2016 — Dec, 2017
 
 I continued with my tasks as SW Engineer but I was more focus on helping other colleagues, improve the architecture to include new use cases, increase the reliability of all the applications and automate processes. I also helped in other business related tasks.
 
-Technologies: _Elixir, Erlang, OTP, Python, Nginx, AngularJS, Javascript, Docker, Mesos, Marathon, Zookeeper, MongoDB, PostgreSQL, MySQL, RabbitMQ, 0MQ_.
+Technologies: _Elixir, Erlang, OTP, Python, Nginx, AngularJS, Javascript, Docker, Mesos, Marathon, Zookeeper, MongoDB, PostgreSQL, MySQL, RabbitMQ, 0MQ, Jenkins_.
 
 </br>
 
@@ -53,7 +53,7 @@ _Senior SW Engineer_ • Sep, 2015 — Sep, 2016
 
 I created all the tech environment of Palmtree Statistics to later design, develop and maintain on production SW solutions to help professional sport traders.
 
-Technologies: _Elixir, Erlang, OTP, Python, Nginx, AngularJS, Javascript, Docker, Mesos, Marathon, Zookeeper, MongoDB, MySQL, RabbitMQ, 0MQ_.
+Technologies: _Elixir, Erlang, OTP, Python, Nginx, AngularJS, Javascript, Docker, Mesos, Marathon, Zookeeper, MongoDB, MySQL, RabbitMQ, 0MQ, Jenkins_.
 
 </br>
 
@@ -141,6 +141,18 @@ Piton runs a high available pool of "Pythons" in order to help you with the GIL.
 
 Open Source Elixir - OTP Application which will help you to work with RabbitMQ.</br></br>
 
+### [Cartografo](https://github.com/mendrugory/cartografo)
+
+CLI tool to generate Kubernetes ConfigMaps or Secrets with a lot of data entries from files.</br></br>
+
+### [Jenkins Porter](https://github.com/mendrugory/jenkins-porter)
+
+Copy, save or restore jobs between jenkins servers.</br></br>
+
+### [Nodex](https://github.com/mendrugory/nodex)
+
+Elixir utility to manage your connected nodes.</br></br>
+
 ### [Galena](https://hex.pm/packages/galena)
 
 Galena is a topic producer-consumer library built on top of GenStage for Elixir.</br></br>
@@ -149,13 +161,13 @@ Galena is a topic producer-consumer library built on top of GenStage for Elixir.
 
 Websocket Library written in Elixir.</br></br>
 
+### [Signalrex](https://github.com/mendrugory/signalrex)
+
+Signalr implementation for Elixir.</br></br>
+
 ### [Barenboim](https://hex.pm/packages/barenboim)
 
 Barenboim is an Elixir library which will help you with data streaming dependencies in concurrent flows.</br></br>
-
-### [MonkeyNoteBot](http://telegram.me/MonkeyNoteBot)
-
-MonkeyNoteBot is a ChatBot for Telegram which will help you to manage your lists of notes.</br></br>
 
 ### [Torip](https://pypi.python.org/pypi/torip/0.1.5)
 
