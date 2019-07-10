@@ -8,6 +8,7 @@ PygmentsCodeFences = true
 canonifyurls = true
 enableEmoji = true
 googleAnalytics = "UA-120514459-1"
+google_tag_manager = "GTM-TR8XH6J"
 
 copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce."
 	
