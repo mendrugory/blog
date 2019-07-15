@@ -1,6 +1,6 @@
 ---
 title: Local Kubernetes Cluster
-date: 2018-07-15
+date: 2019-07-15
 url: /post/local-kubernetes-cluster
 ---
 
