@@ -17,7 +17,7 @@ To help with this issue, I have been working on a [project](https://github.com/m
 
 ## Requirements
 
-* RAM: 16 GB recommended, at least 8 GB.
+* RAM: 16 GB recommended, at least 8 GB. 
 
 
 ## Clone the repository
