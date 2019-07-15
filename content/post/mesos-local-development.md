@@ -16,9 +16,9 @@ Therefore, I wished to release an useful tool for those guys who want to play wi
 
 ## Dependencies
 
-* (Vagrant)[https://www.vagrantup.com/]
+* [Vagrant](https://www.vagrantup.com/)
 * A Vagrant provider to run virtual machines (i.e. [VirtualBox](https://www.virtualbox.org/))
-* (Ansible)[https://www.ansible.com/]
+* [Ansible](https://www.ansible.com/)
 
 
 ## Clone the repository
