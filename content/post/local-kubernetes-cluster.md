@@ -119,7 +119,7 @@ kubernetes   ClusterIP   10.96.0.1       <none>        443/TCP        8m
 
 Make requests to any of the nodes
 
-```
+```bash
 $ curl 192.168.33.21:32741
 <!DOCTYPE html>
 <html>
@@ -148,7 +148,7 @@ Commercial support is available at
 </html>
 ```
 
-```
+```bash
 $ curl 192.168.33.21:30275
 <html><body><h1>It works!</h1></body></html>
 ```
@@ -194,7 +194,7 @@ $ ansible-playbook lb.yml --extra-vars "server1=192.168.33.21 server2=192.168.33
 
 #### Visit the application through the Load Balancer
 
-```
+```bash
 $ curl 192.168.1.143
 <!DOCTYPE html>
 <html>
@@ -257,7 +257,7 @@ $ ansible-playbook ingress.yml --extra-vars "server1=192.168.33.21 server2=192.1
 
 #### Visit the applications through the Ingress
 
-```
+```bash
 $ curl 192.168.1.144/app1/
 <!DOCTYPE html>
 <html>
@@ -286,7 +286,7 @@ Commercial support is available at
 </html>
 ```
 
-```
+```bash
 $ curl 192.168.1.144/app2/
 <html><body><h1>It works!</h1></body></html>
 ```
