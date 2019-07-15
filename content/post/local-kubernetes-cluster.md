@@ -186,7 +186,7 @@ We are not going to use any dedicated software to balance requests between the n
 
 It is necessary to pass the IPs of the nodes, the port of the app and the network interface (by default will be `enp0s9`).
 
-```
+```bash
 $ ansible-playbook lb.yml --extra-vars "server1=192.168.33.21 server2=192.168.33.22 app_port=32741 interface=enp0s9"
 ```
 
