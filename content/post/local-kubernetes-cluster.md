@@ -70,7 +70,7 @@ $ vagrant up
 
 You only have to run the Ansible Playbook, `k8s.yml`:
 
-```
+```bash
 $ ansible-playbook k8s.yml
 ```
 
@@ -176,7 +176,7 @@ The virtual machine will receive a public IP which will be accessible by other c
 
 #### Start up the virtual machine
 
-```
+```bash
 $ vagrant up
 ```
 
@@ -240,7 +240,7 @@ The virtual machine will receive a public IP which will be accessible by other c
 
 #### Start up the virtual machine
 
-```
+```bash
 $ vagrant up
 ```
 
@@ -248,7 +248,7 @@ $ vagrant up
 
 It is necessary to pass the IPs of the nodes and the ports of the apps.
 
-```
+```bash
 $ ansible-playbook ingress.yml --extra-vars "server1=192.168.33.21 server2=192.168.33.22 app1_port=32741 app2_port=30275"
 ```
 
