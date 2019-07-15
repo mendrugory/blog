@@ -76,7 +76,7 @@ $ ansible-playbook k8s.yml
 
 Ansible Playbook finishes with a task which will create a file called `mykubeconfig` which should be used to work with the just created kubernetes cluster through the tool `kubectl`.
 
-```
+```bash
 $ kubectl get nodes -o wide --kubeconfig mykubeconfig
 NAME   STATUS   ROLES    AGE     VERSION   INTERNAL-IP     EXTERNAL-IP   OS-IMAGE             KERNEL-VERSION      CONTAINER-RUNTIME
 k8s1   Ready    master   1m      v1.13.5   192.168.33.11   <none>        Ubuntu 16.04.6 LTS   4.4.0-151-generic   docker://18.6.1
@@ -91,14 +91,14 @@ We are going to deploy already packaged applications as examples:
 
 ### Deploy 2 replicas of Nginx and expose them.
 
-```
+```bash
 $ kubectl run nginx --port=80 --image=nginx --replicas=2 --kubeconfig mykubeconfig 
 $ kubectl expose deployment nginx --port=80 --type=NodePort --kubeconfig mykubeconfig 
 ```
 
 
 ### Deploy 2 replicas of Apache Web server and expose them.
-```
+```bash
 $ kubectl run httpd --port=80 --image=httpd --replicas=2 --kubeconfig mykubeconfig 
 $ kubectl expose deployment httpd --port=80 --type=NodePort --kubeconfig mykubeconfig 
 ```
@@ -108,7 +108,7 @@ $ kubectl expose deployment httpd --port=80 --type=NodePort --kubeconfig mykubec
 
 Check out the assigned Ports.
 
-```
+```bash
 kubectl get svc --kubeconfig mykubeconfig 
 NAME         TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)        AGE
 httpd        NodePort    10.103.208.92   <none>        80:30275/TCP   18s
