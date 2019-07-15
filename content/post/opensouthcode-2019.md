@@ -10,5 +10,5 @@ This year I was there talking about *Infrastructure as code* using *Terraform* a
 
 If you want to learn more, check all the sources:
 
-* [Githun repo with the examples](https://github.com/mendrugory/opensouthcode2019)
+* [Githug repo with the examples](https://github.com/mendrugory/opensouthcode2019)
 * [Slides](https://mendrugory.github.io/opensouthcode2019/#/) (Spanish)
