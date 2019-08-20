@@ -4,7 +4,7 @@ date: 2019-08-20
 url: /post/go-comics
 ---
 
-Do you like comics? I am sure that you do. You can find a lot of them on [The Eye web](https://the-eye.eu/public/Comics/), so I have been playing with a project using [Go](https://golang.org/) in order to download the comics to read them when you whish, *Commiccon*.
+Do you like comics? I am sure that you do. You can find a lot of them on [The Eye web](https://the-eye.eu/public/Comics/), so I have been playing with a project using [Go](https://golang.org/) in order to download the comics to read them when you whish, *Comiccon*.
 
 **Comiccon** is a toy project to download and keep updated comics. It takes advantage of the goroutines to download several comics at the same time. The limitation is the number of your CPUs. [Cobra](https://github.com/spf13/cobra) is the Go library utilized to build the CLI.
 
