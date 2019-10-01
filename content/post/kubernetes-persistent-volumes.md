@@ -1,10 +1,11 @@
 ---
-title: "And if you can't resize your persistent volume in Kubernetes?"
+title: "How to resize your persistent volume in Kubernetes?"
 date: 2019-09-14
-url: /post/increasing-k8s-volumes
+url: /post/kubernetes-persistent-volumes
+description: Working with data in Kubernetes means that you will manage persistent volumes. Resizing your pv is not simple if your cloud provider does not support yet
 ---
 
-One of the first steps when you work with data which must be stored is to estimate the disk size. This is really hard, especially when you are application is new.
+One of the first steps when you work with data which must be stored is to estimate the disk size. This is really hard, especially when your application is new.
 
 Working in a cloud environment gives us the flexibility of using the resources that we need in *almost* any moment without wasting our money in resources that we will use in the future, if everything goes right.
 
@@ -14,7 +15,7 @@ Attaching new disks to our cloud virtual machines is very common but, what would
 
 Some new concepts are introduced when we work with containers, using for example Kubernetes, in a cloud environment. The application will run, directly, in containers, although the containers will be in the virtual machines, and the persistent data will be stored in [persistent volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/), although this volumes will be in attached disks.
 
-It is possible to resize a persistent volume in Kubernetes since version 1.11, but it is not supported by all the cloud providers. Therefore, what should we do if we need a bigger volume?
+**It is possible to resize a persistent volume in Kubernetes** since version 1.11, but it is not supported by all the cloud providers. Therefore, what should we do if we need a bigger volume?
 
 > It is not possible in Azure AKS at this moment.
 
@@ -77,7 +78,7 @@ $ kubectl apply -f pvc.yml
 
 The next step is to run a helper pod where we will attach the two volumes and it will be used to execute the migration of the data.
 
-helper.yml
+*helper.yml*
 
 ```yml
 apiVersion: apps/v1beta1
