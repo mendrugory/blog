@@ -54,5 +54,11 @@ $ git remote add origin <Project Remote URL>
 $ git pull origin master
 ```
 
+#### Default master branch
+
+```bash
+$ git branch --set-upstream-to=origin/master
+```
+
 
 Using this solution you will directly associate this GIT repository to the right GIT user without affecting other GIT configuration in your PC.
