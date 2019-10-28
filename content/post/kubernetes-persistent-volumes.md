@@ -30,7 +30,7 @@ So we think in stopping the application for a while and migrate the data between
 
 The first step should be to stop the pod in order to avoid writes in the middle of the migration which could cause problems.
 
-```
+```bash
 $ kubectl delete -f myapp.yml
 ```
 
