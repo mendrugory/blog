@@ -60,5 +60,11 @@ $ git pull origin master
 $ git branch --set-upstream-to=origin/master
 ```
 
+#### Fetch All
+
+```bash
+$ git fetch --all
+```
+
 
 Using this solution you will directly associate this GIT repository to the right GIT user without affecting other GIT configuration in your PC.
