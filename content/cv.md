@@ -10,7 +10,7 @@ comments = false
 
 # Gonzalo Gabriel Jiménez Fuentes
 
-__Software Consultant__
+__Software Development and DevOps Consultant__
 
 I enjoy solving problems using Software. I have created code for very different devices and machines: servers, PCs, mobiles, microcontrollers, PLCs and so on. This fact has made to deal with a large range of problems and paradigms, but always taking into account scalability, resilience and fault tolerance. You can find my code running in a data center, in your mobile phone or even in an airport. My Background is in Telecom therefore I like the projects that involve real-time, networking, messaging, concurrency and so on.
 I also like to share my knowledge publishing posts in my blog and releasing my open source projects.
@@ -19,9 +19,9 @@ I also like to share my knowledge publishing posts in my blog and releasing my o
 
 ## Experience
 
-### Software Consultant
+### Software Development and DevOps Consultant
 
-_Software Consultant_ • Jan, 2018 — Present
+_Software Development and DevOps Consultant_ • Jan, 2018 — Present
 
 I help my customers to design, build and maintain real-time applications.
   
@@ -120,6 +120,12 @@ _2003 — 2003_
 ### Conservatorio Elemental de Música de Montilla
 __Basic Degree in Violin__
 _1995 — 2000_
+
+</br></br>
+
+## Certifications
+
+* [Certified Kubernetes Administrator](https://www.youracclaim.com/badges/ac2cb6bc-00b7-4bd8-b89d-719b6e39a5ba/public_url)
 
 </br></br>
 
