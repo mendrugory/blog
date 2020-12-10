@@ -33,7 +33,7 @@ I help my customers to design, build and maintain real-time applications.
 
 Technologies: _Linux, Docker, Kubernetes, AWS, Azure, GCP, Terraform, Ansible, Vagrant, Jenkins, Gitlab, Python, Go, Elixir, Erlang/OTP, Rust, Bash, Nginx, DC/OS, Mesos, Marathon, Zookeeper, MongoDB, PostgreSQL, MySQL, RabbitMQ, 0MQ, Kafka_.
 
-Check out the [professional web](https://www.ananalab.com).
+Check out the [professional web](https://www.adysof.com).
 
 </br>
 
