@@ -125,7 +125,8 @@ _1995 — 2000_
 
 ## Certifications
 
-* [Certified Kubernetes Administrator](https://www.youracclaim.com/badges/ac2cb6bc-00b7-4bd8-b89d-719b6e39a5ba/public_url)
+* [Certified Kubernetes Administrator (CKA)](https://www.youracclaim.com/badges/ac2cb6bc-00b7-4bd8-b89d-719b6e39a5ba/public_url)
+* [Certified Kubernetes Application Developer (CKAD)](https://www.youracclaim.com/earner/earned/badge/b5e5334c-4530-40a1-ad0f-bb93a2ffb8bc)
 
 </br></br>
 
