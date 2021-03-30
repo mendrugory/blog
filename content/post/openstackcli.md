@@ -64,4 +64,5 @@ spec:
 
 I think that this is a temporary solution, but I expect that it is useful meanwhile.
 
-[Github](https://github.com/mendrugory/docker-openstackcli) [DockerHub](https://hub.docker.com/repository/docker/mendrugory/openstackcli)
+* [Code](https://github.com/mendrugory/docker-openstackcli) 
+* [Repository](https://hub.docker.com/repository/docker/mendrugory/openstackcli)
