@@ -5,7 +5,7 @@ url: /post/openstackcli
 ---
 
 
-Some days ago I released [openstackli]((https://github.com/mendrugory/docker-openstackcli)), a new containerized tool to work with [Openstack API](https://docs.openstack.org/api-quick-start/).
+Some days ago I released [openstackcli](https://github.com/mendrugory/docker-openstackcli), a new containerized tool to work with [Openstack API](https://docs.openstack.org/api-quick-start/).
 
 The motivation of this project was driven by a missing feature from [OVH's Managed Kubernetes](https://www.ovhcloud.com/en/public-cloud/kubernetes/): Snapshots from in-use volumes.
 
