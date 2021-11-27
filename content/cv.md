@@ -128,6 +128,9 @@ _1995 — 2000_
 * [Certified Kubernetes Administrator (CKA)](https://www.youracclaim.com/badges/ac2cb6bc-00b7-4bd8-b89d-719b6e39a5ba/public_url)
 * [Certified Kubernetes Application Developer (CKAD)](https://www.youracclaim.com/badges/b5e5334c-4530-40a1-ad0f-bb93a2ffb8bc/public_url)
 
+* [Certified Kubernetes Specialist Security (CKAD)](https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/8dda1882-1e9b-5e46-b22a-f4d312892b9a-gonzalo-gabriel-jimnez-fuentes-00faed80-ae20-42dc-853d-09f8d0a0cb49-certificate.pdf)
+
+
 </br></br>
 
 ## Languages
