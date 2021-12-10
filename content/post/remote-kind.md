@@ -1,5 +1,5 @@
 ---
-title: "Launching Remote KIND Clusters"
+title: "Launching Remote KIND (Kubernetes) Clusters"
 date: 2021-12-10
 url: /post/remote-kind
 ---
@@ -8,13 +8,13 @@ url: /post/remote-kind
 
 Some days ago, a question was raised in a Slack Channel: *Could I launch a kind cluster in a remote machine?* I directly thought, *yes, you could*, but let's see how.
 
-Kind is a magnificient tool for those people who develop for [Kubernetes](kubernetes.io/) or test their SW directly in [Kubernetes](kubernetes.io/). Every Kind's nodes will be a [Docker](https://www.docker.com/) container and this is the key part of having the possibility of launching remote Kind clusters.
+[Kind](https://kind.sigs.k8s.io/) is a magnificient tool for those people who develop for [Kubernetes](kubernetes.io/) or test their SW directly in [Kubernetes](kubernetes.io/). Every Kind's nodes will be a [Docker](https://www.docker.com/) container and this is the key part of having the possibility of launching remote Kind clusters.
 
-Firstly, we need to have remote machine. If you already have it, you can skip it and go to [Docker](#docker) section.
+Firstly, we need to have a remote machine. If you already have it, you can skip next section and go directly to [Docker](#docker) section.
 
 ## Virtual Machine
 
-For this experiment, we are going to use a virtual machine as remote machine. You can work with the system you are more confortable with but I will work with [Multipass](https://multipass.run/) to use [KVM](https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine) in my Linux laptop.
+For this experiment, a virtual machine will be used as remote machine. You can work with the system you are more comfortable with but the example is based on [Multipass](https://multipass.run/) to use [KVM](https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine) in a Linux machine.
 
 ### Launch Virtual Machine
 
@@ -55,7 +55,7 @@ ubuntu@remote:~$ sudo apt install -y docker.io
 
 ### Configuration
 
-The easiest way to manage docker's configuration is using the file `/etc/docker/daemon.json` where we are going to expose the daemon using the remote machine IP and we will also leave the UNIX socket to allow `docker CLI` working:
+The easiest way to manage docker's configuration is using the file `/etc/docker/daemon.json` where we are going to expose the daemon using the remote machine IP and we will also leave the UNIX socket to still working with `docker CLI` from the remote machine:
 
 ```json
 {
@@ -64,13 +64,13 @@ The easiest way to manage docker's configuration is using the file `/etc/docker/
 }
 ```
 
-And check that `ExecStart` within file `/lib/systemd/system/docker.service` is like:
+And check that `ExecStart` field within file `/lib/systemd/system/docker.service` is like:
 
 ```conf
 ExecStart=/usr/bin/dockerd  --containerd=/run/containerd/containerd.sock
 ```
 
-Finally, restart the service and add the your user to docker group to avoid using `sudo` (it will work after finishing the session):
+Finally, restart the service and add your user to the `docker` group to avoid using `sudo` (it will work after finishing the session):
 
 ```bash
 ubuntu@remote:~$ sudo systemctl daemon-reload
@@ -97,8 +97,6 @@ kindest/node   v1.23.0   b3dd68fe0a8c   2 days ago   1.46GB
 Let's go back to our local machine.
 
 ### Pointing Remote Docker Daemon
-
-Docker daemon is exposed, therefore we can request
 
 `Docker CLI` uses environment variable `DOCKER_HOST` to build their requests, so:
 
