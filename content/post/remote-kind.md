@@ -6,7 +6,7 @@ url: /post/remote-kind
 
 > NOTE: This content is just for testing and experimentation. It can provoke many security issues therefore, do not use in a production environment.
 
-Some days ago, a question was raised in a Slack Channel: *Could I launch a kind cluster in a remote machine?* I directly thought, *yes, you could*, but let's see how.
+Some days ago, a question was raised at [Clastix](https://clastix.io/): *Could I launch a kind cluster in a remote machine?* I directly thought, *yes, you could*, but let's see how.
 
 [Kind](https://kind.sigs.k8s.io/) is a magnificient tool for those people who develop for [Kubernetes](kubernetes.io/) or test their SW directly in [Kubernetes](kubernetes.io/). Every Kind's nodes will be a [Docker](https://www.docker.com/) container and this is the key part of having the possibility of launching remote Kind clusters.
 
