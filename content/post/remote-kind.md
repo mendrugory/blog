@@ -1,5 +1,5 @@
 ---
-title: "Launching Remote KIND (Kubernetes) Clusters"
+title: "Launching Remote KIND (Kubernetes in Docker) Clusters"
 date: 2021-12-10
 url: /post/remote-kind
 ---
