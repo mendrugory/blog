@@ -1,7 +1,7 @@
 ---
 title: "Sharing code to different Git Repositories"
 date: 2021-12-22
-url: /post/remote-kind
+url: /post/sharing-to-different-repos
 ---
 
 [Git](https://git-scm.com/) is probably the most used version control system out there. It is full of features and gives a lot of flexibility to the people involved with the code. One of these feature is the possibility of sharing the same code to different remote repositories. The use case can be really different: different audience targets, private and public repos and so on. Trying to share the same code in different places *by hand* can be a nightmare, instead, it is really easy thanks to git.
