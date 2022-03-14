@@ -21,7 +21,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   url = "/post/"
 
 [[menu.main]]
-  name = "Work"
+  name = "Consultancy"
   weight = 20
   identifier = "work"
   url = "https://www.adysof.com"
