@@ -23,7 +23,7 @@ I also like to share my knowledge publishing posts in my blog and releasing my o
 
 _Software Development and DevOps Consultant_ • Jan, 2018 — Present
 
-I help my customers to design, build and maintain real-time applications.
+I help my customers to design, build and maintain cloud-native applications. Check the [website](https://www.adysof.com).
   
 * Software Development
 * Devops
