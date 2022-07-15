@@ -143,6 +143,14 @@ _1995 — 2000_
 
 ## Open Source Projects
 
+### [Kamaji](https://github.com/clastix/kamaji)
+
+Kamaji is a tool aimed to build and operate a Managed Kubernetes Service with a fraction of the operational burden. With Kamaji, you can deploy and operate hundreds of Kubernetes clusters as a hyper-scale cloud provider.
+
+### [Ockam](https://github.com/build-trust/ockam)
+
+Build Applications That Trust Data-in-Motion Across Cloud Services, Beyond Data Centers, Through Gateways.
+
 ### [Piton](https://hex.pm/packages/piton)
 
 Piton runs a high available pool of "Pythons" in order to help you with the GIL.</br></br>
