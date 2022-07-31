@@ -12,8 +12,15 @@ comments = false
 
 __Software Development and DevOps Consultant__
 
-I enjoy solving problems using Software. I have created code for very different devices and machines: servers, PCs, mobiles, microcontrollers, PLCs and so on. This fact has made to deal with a large range of problems and paradigms, but always taking into account scalability, resilience and fault tolerance. You can find my code running in a data center, in your mobile phone or even in an airport. My Background is in Telecom therefore I like the projects that involve real-time, networking, messaging, concurrency and so on.
-I also like to share my knowledge publishing posts in my blog and releasing my open source projects.
+I enjoy solving problems using Software and helping people to do the same, guiding them or
+through training. I have created code for very different devices and machines: servers, PCs,
+mobiles, microcontrollers, PLCs and so on. This fact has made to deal with a large range of
+problems and paradigms, but always taking into account scalability, resilience and fault tolerance.
+You can find my code running in a data center, in your mobile phone or even in an airport. I
+consider myself a team player which always helps every member of the team to success. My
+Background is in Telecom therefore I like the projects that involve real-time, networking,
+messaging, concurrency and so on. I also like to share my knowledge publishing posts in blogs and
+releasing my open source projects.
 
 </br></br>
 
