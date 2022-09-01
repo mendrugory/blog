@@ -28,12 +28,13 @@ releasing my open source projects.
 
 ### Software Development and DevOps Consultant
 
-_Software Development and DevOps Consultant_ • Jan, 2018 — Present
+_Founder and Technical Director_ • Jan, 2018 — Present
 
-I help my customers to design, build and maintain cloud-native applications. Check the [website](https://www.adysof.com).
+I help my customers to design, build and maintain cloud-native applications.
   
 * Software Development
 * Devops
+* Tech Advisor
 * Tech Consultant
 * Trainings
 * HR Tech Partner
@@ -41,6 +42,27 @@ I help my customers to design, build and maintain cloud-native applications. Che
 Technologies: _Linux, Kubernetes, Docker, Cloud(AWS, Azure, GCP, OpenStack), Python, Go, Elixir, Erlang/OTP, Rust, Bash, Terraform, Ansible, CI/CD(Jenkins, Gitlab, GitHub Actions), Nginx, HA-Proxy, DC/OS, Mesos, Marathon, Zookeeper, MongoDB, Couchbase, PostgreSQL, MySQL, RabbitMQ, 0MQ, Kafka_.
 
 Check out the [professional web](https://www.adysof.com).
+
+**Projects**
+
+* Hosting with more than 80000 online websites
+* CDN with more than 10000 users
+* Real Time Sport Bots system
+* AWS Cloud Automation
+* Cloud Kubernetes Platform in Openstack
+* Secure Cloud Communication system offered as PaaS
+* Multi-tenant tools for Kubernetes
+* Platform for data analysis in real time
+* Control system of video cameras and weather switchboards
+* Surveillance System Android App
+
+**Training**: (Every training has been delivered several times to different companies)
+
+* Docker
+* Kubernetes
+* Kubernetes Operators
+* CI/CD Pipelines
+* TDD with Python
 
 </br>
 
