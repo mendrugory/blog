@@ -26,7 +26,7 @@ releasing my open source projects.
 
 ## Experience
 
-### Software Development and DevOps Consultant
+### Adysof Solutions
 
 _Founder and Technical Director_ • Jan, 2018 — Present
 
@@ -43,7 +43,7 @@ Technologies: _Linux, Kubernetes, Docker, Cloud(AWS, Azure, GCP, OpenStack), Pyt
 
 Check out the [professional web](https://www.adysof.com).
 
-**Projects**
+**Projects**:
 
 * Hosting with more than 80000 online websites
 * CDN with more than 10000 users
