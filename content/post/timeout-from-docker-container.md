@@ -20,9 +20,10 @@ $ ip link
 
 As we can see, the network interface `eth0` has a `mtu` (Maximum Transmission Unit) of 1450 when the Docker's network bridge has a `mtu` of 1500. In order to make it work, network bridge's `mtu` can not be greater than the physical one, therefore, we could set up `docker0` to have a mtu of 1450 just customizing `/etc/docker/daemon.json`.
 
-`/etc/docker/daemon.json`
 
 ```json
+/etc/docker/daemon.json
+
 {
     // Other parameters
     "mtu": 1450
