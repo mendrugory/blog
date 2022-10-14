@@ -36,19 +36,7 @@ And restart your docker service:
 $ sudo systemctl restart docker
 ```
 
-Then, you can check out the interfaces again:
-
-```bash
-$ ip link
-1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
-    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
-2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1450 qdisc mq state UP group default qlen 1000
-    link/ether 1b:36:33:cb:a5:f1 brd ff:ff:ff:ff:ff:ff
-3: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1450 qdisc noqueue state DOWN group default 
-    link/ether 0e:22:c2:16:c4:7f brd ff:ff:ff:ff:ff:ff
-```
-
-`eth0` and `docker0` have the same `mtu` and your containers will properly work.
+Now your containers will properly work.
 
 Why does [Genesis Cloud](https://www.genesiscloud.com/) configure `mtu` to 1450 in their ubuntu instances?
 That's a question for them ☺️.
