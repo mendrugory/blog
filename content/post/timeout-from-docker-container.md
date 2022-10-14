@@ -18,11 +18,11 @@ $ ip link
     link/ether 0e:22:c2:16:c4:7f brd ff:ff:ff:ff:ff:ff
 ```
 
-As we can see, the network interface `eth0` has a `mtu` (Maximum Transmission Unit) of 1450 when the Docker's network bridge has a `mtu` of 1500. In order to make it work, network bridge's `mtu` can not be greater than the physical one, therefore, we could set up `docker0` to have a mtu of 1450 just customizing `/etc/docker/daemon.json`.
+As we can see, the network interface `eth0` has a `mtu` (Maximum Transmission Unit) of 1450 when the Docker's network bridge has a `mtu` of 1500 by default (and it is a common value). In order to make it work, network bridge's `mtu` can not be greater than the physical one, therefore, we could set up `docker0` to have a mtu of 1450 just customizing `/etc/docker/daemon.json`.
 
+*/etc/docker/daemon.json*
 
 ```json
-/etc/docker/daemon.json
 
 {
     // Other parameters
@@ -48,7 +48,7 @@ $ ip link
     link/ether 0e:22:c2:16:c4:7f brd ff:ff:ff:ff:ff:ff
 ```
 
-`eth0` and `docker0` has the same `mtu` and your containers will properly work.
+`eth0` and `docker0` have the same `mtu` and your containers will properly work.
 
 Why does [Genesis Cloud](https://www.genesiscloud.com/) configure `mtu` to 1450 in their ubuntu instances?
 That's a question for them ☺️.
