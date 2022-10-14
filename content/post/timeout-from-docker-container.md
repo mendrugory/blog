@@ -36,7 +36,7 @@ And restart your docker service:
 $ sudo systemctl restart docker
 ```
 
-Now your containers will properly work.
+Now, your containers will properly work.
 
 Why does [Genesis Cloud](https://www.genesiscloud.com/) configure `mtu` to 1450 in their ubuntu instances?
 That's a question for them ☺️.
