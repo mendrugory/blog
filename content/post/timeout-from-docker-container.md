@@ -4,9 +4,9 @@ date: 2022-10-14
 url: /post/timeout-from-docker-container
 ---
 
-Working in a really cool project with [Clear ML](https://clear.ml/), I had to figure out why it was not possible to install some Python packages from [pypi](https://pypi.org/). First feedback I received was "docker image has a bug", but when I went deeper, I saw that behaviour was not related to the image, [nvidia/cuda](https://hub.docker.com/r/nvidia/cuda), or to the site, [pypi](https://pypi.org/). The strange behaviour affected, mainly but not always, to `https`, but also from other docker images: [ubuntu](https://hub.docker.com/u/ubuntu), [nginx](https://hub.docker.com/u/nginx), ... Therefore, something was happening between the docker daemon and the virtual machine.
+Working in a really cool project with [Clear ML](https://clear.ml/){:target="_blank"}, I had to figure out why it was not possible to install some Python packages from [pypi](https://pypi.org/){:target="_blank"}. First feedback I received was "docker image has a bug", but when I went deeper, I saw that behaviour was not related to the image, [nvidia/cuda](https://hub.docker.com/r/nvidia/cuda){:target="_blank"}, or to the site, [pypi](https://pypi.org/). The strange behaviour affected, mainly but not always, to `https`, but also from other docker images: [ubuntu](https://hub.docker.com/u/ubuntu){:target="_blank"}, [nginx](https://hub.docker.com/u/nginx){:target="_blank"}, ... Therefore, something was happening between the docker daemon and the virtual machine.
 
-Containers were running into [Genesis Cloud](https://www.genesiscloud.com/) Ubuntu instances, so as first step, I check out the network interfaces:
+Containers were running into [Genesis Cloud](https://www.genesiscloud.com/){:target="_blank"} Ubuntu instances, so as first step, I check out the network interfaces:
 
 ```bash
 $ ip link
@@ -50,5 +50,5 @@ $ ip link
 
 `eth0` and `docker0` have the same `mtu` and your containers will properly work.
 
-Why does [Genesis Cloud](https://www.genesiscloud.com/) configure `mtu` to 1450 in their ubuntu instances?
+Why does [Genesis Cloud](https://www.genesiscloud.com/){:target="_blank"} configure `mtu` to 1450 in their ubuntu instances?
 That's a question for them ☺️.
