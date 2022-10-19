@@ -315,7 +315,7 @@ Although our code could be added to a custom image, we will use a volume to shar
 
 ## Demo
 
-[![Video](https://youtu.be/EDkCUXRpV5o)](https://youtu.be/EDkCUXRpV5o "Protecting Containerized Applications using eBPF")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EDkCUXRpV5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Code
 
