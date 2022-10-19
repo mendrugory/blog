@@ -291,7 +291,7 @@ Once that we have the code ready, we only need to execute it. In order to facili
 
 When creating a new container connected to a user-defined bridge network, a pair of virtual network interfaces are created. One in the container and the other one in the host, whose responsibility is just communicating between the different network namespaces.
 
-<img alt="user defined bridge" class="galleryImageBorder wsite-image" src="/img/user-defined-bridge.png" style="margin-top: 5px; margin-bottom: 10px; margin-left: 0px; margin-right: 10px; none; max-width:100%"/>
+<img alt="user defined bridge" class="galleryImageBorder wsite-image" src="/img/user-defined-bridge.png" style="margin-top: 5px;max-width:100%"/>
 
 Protector, which is going to be a docker container, has to have access to the network interface of the server container, so we will connect the container to the server's network namespace (`--net container:server`).
 
@@ -315,7 +315,8 @@ Although our code could be added to a custom image, we will use a volume to shar
 
 ## Demo
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EDkCUXRpV5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" style="margin-top: 5px;max-width:100%" src="https://www.youtube.com/embed/EDkCUXRpV5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Code
 
