@@ -10,8 +10,6 @@ comments = false
 
 # Gonzalo Gabriel Jiménez Fuentes
 
-__Software Development and DevOps Consultant__
-
 I enjoy solving problems using Software and helping people to do the same, guiding them or
 through training. I have created code for very different devices and machines: servers, PCs,
 mobiles, microcontrollers, PLCs and so on. This fact has made to deal with a large range of
@@ -72,7 +70,7 @@ Participating in **projects** around the world playing different roles:
 
 _SW Development and DevOps Consultant_ Jan, 2018 - May, 2020
 
-I was working as freelance helping companies to achieve their goals.
+Working as freelance helping companies to achieve their goals.
 
 **Projects**:
 
@@ -96,7 +94,7 @@ _Linux, Kubernetes, Docker, Cloud(AWS, Azure, GCP, OpenStack), Python, Go, Elixi
 
 _Chief SW Architect_ • Oct, 2016 — Dec, 2017
 
-I continued with my tasks as SW Engineer but I was more focus on helping and guiding other colleagues, improve the architecture to include new use cases, increase the reliability of all the applications and automate processes. I also helped in other business related tasks.
+Going on with with my tasks as SW Engineer but I was more focus on helping and guiding other colleagues, improve the architecture to include new use cases, increase the reliability of all the applications and automate processes. I also helped in other business related tasks.
 
 **Main project**:
 
@@ -112,7 +110,7 @@ _Linux, Elixir, Erlang/OTP, Python, Bash, Nginx, AngularJS, Javascript, Docker, 
 
 _Senior SW Engineer_ • Sep, 2015 — Sep, 2016
 
-I become the first tech employee of the company and, therefore, I had to create all the tech environment of Palmtree Statistics to later design, develop and maintain on production SW solutions to help professional sport traders.
+Palmtree Statistics first tech employee and, therefore, I had to create all the tech environment of Palmtree Statistics to later design, develop and maintain on production SW solutions to help professional sport traders.
 
 **Main project**:
 
@@ -128,7 +126,7 @@ _Linux, Elixir, Erlang/OTP, Python, Bash, Nginx, AngularJS, Javascript, Docker, 
 
 _R&D Engineer_ • Jun, 2011 — Aug, 2015
 
-I worked in several agile teams distributed around the world developing SW tools which were used to optimize mobile (GSM, UMTS and LTE) networks of several vendors. Information traces of the network nodes were analyzed in order to identify and geo-locate issues.
+Collaborating with several agile teams distributed around the world developing SW tools which were used to optimize mobile (GSM, UMTS and LTE) networks of several vendors. Information traces of the network nodes were analyzed in order to identify and geo-locate issues.
 
 **Main Project**:
 
@@ -144,7 +142,7 @@ _Java, C++, Python, MySQL, GSM, UMTS, LTE_.
 
 _Control & Communications Engineer_ • Oct, 2009 — Jun, 2011
 
-I worked in a cross-functional team to develop industrial HVAC solutions, mainly for airports, where my responsibility was Software and Hardware related. Start-ups, on-site updates and trainings were also my tasks.
+Being part of a cross-functional team to develop industrial HVAC solutions, mainly for airports, where my responsibility was Software and Hardware related. Start-ups, on-site updates and trainings were also my tasks.
 
 **Main Project**:
 
