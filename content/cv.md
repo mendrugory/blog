@@ -28,7 +28,7 @@ releasing my open source projects.
 
 ### Adysof Solutions
 
-_Founder and Technical Director_ • Jan, 2018 — Present
+_Founder and Technical Director_ • Apr, 2020 — Present
 
 I help my customers to design, build and maintain cloud-native applications.
   
@@ -39,11 +39,13 @@ I help my customers to design, build and maintain cloud-native applications.
 * Trainings
 * HR Tech Partner
 
-Technologies: _Linux, Kubernetes, Docker, Cloud(AWS, Azure, GCP, OpenStack), Python, Go, Elixir, Erlang/OTP, Rust, Bash, Terraform, Ansible, CI/CD(Jenkins, Gitlab, GitHub Actions), Nginx, HA-Proxy, DC/OS, Mesos, Marathon, Zookeeper, MongoDB, Couchbase, PostgreSQL, MySQL, RabbitMQ, 0MQ, Kafka_.
+**Technologies**:
+
+_Linux, Kubernetes, Docker, Cloud(AWS, Azure, GCP, OpenStack), Python, Go, Elixir, Erlang/OTP, Rust, Bash, Terraform, Ansible, CI/CD(Jenkins, Gitlab, GitHub Actions), Nginx, HA-Proxy, DC/OS, Mesos, Marathon, Zookeeper, MongoDB, Couchbase, PostgreSQL, MySQL, RabbitMQ, 0MQ, Kafka_.
 
 Check out the [professional web](https://www.adysof.com).
 
-**Projects**:
+Participating in **projects** around the world playing different roles:
 
 * Hosting with more than 80000 online websites
 * CDN with more than 10000 users
@@ -66,13 +68,43 @@ Check out the [professional web](https://www.adysof.com).
 
 </br>
 
+### Freelance
+
+_SW Development and DevOps Consultant_ Jan, 2018 - May, 2020
+
+I was working as freelance helping companies to achieve their goals.
+
+**Projects**:
+
+* Real Time Sport Trading system
+* Development of a testing environment for a blockchain platform
+* Design of a crypto trading platform
+* Control system of video cameras and weather switchboards
+* Surveillance System Android App
+
+**Training**: (Every training has been delivered several times to different companies)
+
+* Docker
+* Kubernetes
+* CI/CD Pipelines
+
+**Technologies**:
+
+_Linux, Kubernetes, Docker, Cloud(AWS, Azure, GCP, OpenStack), Python, Go, Elixir, Erlang/OTP, Java, Bash, Terraform, Ansible, CI/CD(Jenkins, Gitlab, GitHub Actions), Nginx, HA-Proxy, DC/OS, Mesos, Marathon, Zookeeper, MongoDB, Couchbase, PostgreSQL, MySQL, RabbitMQ, 0MQ, Kafka_.
+
 ### Palmtree Statistics
 
 _Chief SW Architect_ • Oct, 2016 — Dec, 2017
 
-I continued with my tasks as SW Engineer but I was more focus on helping other colleagues, improve the architecture to include new use cases, increase the reliability of all the applications and automate processes. I also helped in other business related tasks.
+I continued with my tasks as SW Engineer but I was more focus on helping and guiding other colleagues, improve the architecture to include new use cases, increase the reliability of all the applications and automate processes. I also helped in other business related tasks.
 
-Technologies: _Linux, Elixir, Erlang/OTP, Python, Bash, Nginx, AngularJS, Javascript, Docker, Mesos, Marathon, Zookeeper, MongoDB, PostgreSQL, MySQL, RabbitMQ, 0MQ, Jenkins_.
+**Main project**:
+
+_Pelota_ was a Football trading system which helped traders to take decisions more accurate and faster than their competitors.
+
+**Technologies**: 
+
+_Linux, Elixir, Erlang/OTP, Python, Bash, Nginx, AngularJS, Javascript, Docker, Mesos, Marathon, Zookeeper, MongoDB, PostgreSQL, MySQL, RabbitMQ, 0MQ, Jenkins_.
 
 </br>
 
@@ -80,23 +112,15 @@ Technologies: _Linux, Elixir, Erlang/OTP, Python, Bash, Nginx, AngularJS, Javasc
 
 _Senior SW Engineer_ • Sep, 2015 — Sep, 2016
 
-I created all the tech environment of Palmtree Statistics to later design, develop and maintain on production SW solutions to help professional sport traders.
+I become the first tech employee of the company and, therefore, I had to create all the tech environment of Palmtree Statistics to later design, develop and maintain on production SW solutions to help professional sport traders.
 
-Technologies: _Linux, Elixir, Erlang/OTP, Python, Bash, Nginx, AngularJS, Javascript, Docker, Mesos, Marathon, Zookeeper, MongoDB, MySQL, RabbitMQ, 0MQ, Jenkins_.
+**Main project**:
 
-</br>
+_Pelota_ was a Football trading system which helped traders to take decisions more accurate and faster than their competitors.
 
-### Freelance Engineer
+**Technologies**:
 
-_Freelance Engineer_ • Aug, 2013 — Aug, 2015
-
-I collaborated in different part-time projects with several companies:
-
-* Platform for data analysis in soft real time.
-* Control system of video cameras and weather switchboards.
-* Android Application for surveillance system.
-
-Technologies: _Java, Android, Python, AngularJS, MongoDB, Nginx_.
+_Linux, Elixir, Erlang/OTP, Python, Bash, Nginx, AngularJS, Javascript, Docker, Mesos, Marathon, Zookeeper, MongoDB, MySQL, RabbitMQ, 0MQ, Jenkins_.
 
 </br>
 
@@ -106,7 +130,13 @@ _R&D Engineer_ • Jun, 2011 — Aug, 2015
 
 I worked in several agile teams distributed around the world developing SW tools which were used to optimize mobile (GSM, UMTS and LTE) networks of several vendors. Information traces of the network nodes were analyzed in order to identify and geo-locate issues.
 
-Technologies: _Java, C++, Python, MySQL, GSM, UMTS, LTE_.
+**Main Project**:
+
+_TPS_ (Trace Processing Server) took traces (network protocol events) and processed them in order to help field engineers to take better decisions.
+
+**Technologies**: 
+
+_Java, C++, Python, MySQL, GSM, UMTS, LTE_.
 
 </br>
 
@@ -114,9 +144,15 @@ Technologies: _Java, C++, Python, MySQL, GSM, UMTS, LTE_.
 
 _Control & Communications Engineer_ • Oct, 2009 — Jun, 2011
 
-I worked in a cross-functional team to develop industrail HVAC solutions where my responsability was Software and Hardware related. Start-ups, on-site updates and trainings were also my tasks.
+I worked in a cross-functional team to develop industrial HVAC solutions, mainly for airports, where my responsibility was Software and Hardware related. Start-ups, on-site updates and trainings were also my tasks.
 
-Technologies: _C/C++, Matlab, Pascal, Ladder, Javascript_.
+**Main Project**:
+
+Emirates Airlines Engineering Center project (Dubai)
+
+**Technologies**:
+
+_C/C++, Matlab, Pascal, Ladder, Javascript_.
 
 </br></br>
 
