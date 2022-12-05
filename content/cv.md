@@ -10,15 +10,7 @@ comments = false
 
 # Gonzalo Gabriel Jiménez Fuentes
 
-I enjoy solving problems using Software and helping people to do the same, guiding them or
-through training. I have created code for very different devices and machines: servers, PCs,
-mobiles, microcontrollers, PLCs and so on. This fact has made to deal with a large range of
-problems and paradigms, but always taking into account scalability, resilience and fault tolerance.
-You can find my code running in a data center, in your mobile phone or even in an airport. I
-consider myself a team player which always helps every member of the team to success. My
-Background is in Telecom therefore I like the projects that involve real-time, networking,
-messaging, concurrency and so on. I also like to share my knowledge publishing posts in blogs and
-releasing my open source projects.
+I enjoy solving problems using Software and helping people to do the same, guiding them or through training. I have developed a wide range of projects, this fact has made me to deal with a large range of problems and paradigms, but always taking into account scalability, resilience and fault tolerance. My software systems are currently running in data center, in mobile phones or even in airports. I consider myself a team player which always helps every person involved in the project to success. My Background is in Telecom therefore I like the projects that involve real-time, networking, messaging, concurrency and so on. I also like to share my knowledge publishing posts in blogs and releasing my open source projects.
 
 </br></br>
 
@@ -37,11 +29,7 @@ I help my customers to design, build and maintain cloud-native applications.
 * Trainings
 * HR Tech Partner
 
-**Technologies**:
-
-_Linux, Kubernetes, Docker, Cloud(AWS, Azure, GCP, OpenStack), Python, Go, Elixir, Erlang/OTP, Rust, Bash, Terraform, Ansible, CI/CD(Jenkins, Gitlab, GitHub Actions), Nginx, HA-Proxy, DC/OS, Mesos, Marathon, Zookeeper, MongoDB, Couchbase, PostgreSQL, MySQL, RabbitMQ, 0MQ, Kafka_.
-
-Check out the [professional web](https://www.adysof.com).
+Check out some of the [published projects](https://www.adysof.com/case-studies).
 
 Participating in **projects** around the world playing different roles:
 
@@ -52,9 +40,6 @@ Participating in **projects** around the world playing different roles:
 * Cloud Kubernetes Platform in Openstack
 * Secure Cloud Communication system offered as PaaS
 * Multi-tenant tools for Kubernetes
-* Platform for data analysis in real time
-* Control system of video cameras and weather switchboards
-* Surveillance System Android App
 
 **Training**: (Every training has been delivered several times to different companies)
 
@@ -63,6 +48,10 @@ Participating in **projects** around the world playing different roles:
 * Kubernetes Operators
 * CI/CD Pipelines
 * TDD with Python
+
+**Technologies**:
+
+_Linux, Kubernetes, Docker, Cloud(AWS, Azure, GCP, OpenStack), Python, Go, Elixir, Erlang/OTP, Rust, Bash, Terraform, Ansible, CI/CD(Jenkins, Gitlab, GitHub Actions), Nginx, HA-Proxy, DC/OS, Mesos, Marathon, Zookeeper, MongoDB, Couchbase, PostgreSQL, MySQL, RabbitMQ, 0MQ, Kafka_.
 
 </br>
 
@@ -94,7 +83,8 @@ _Linux, Kubernetes, Docker, Cloud(AWS, Azure, GCP, OpenStack), Python, Go, Elixi
 
 _Chief SW Architect_ • Oct, 2016 — Dec, 2017
 
-Going on with with my tasks as SW Engineer but I was more focus on helping and guiding other colleagues, improve the architecture to include new use cases, increase the reliability of all the applications and automate processes. I also helped in other business related tasks.
+I became the biggest tech authority of the company, directly working with the CEO and the co-founders. Focus on building teams, helping and guiding other colleagues, improve the architecture to include new use cases, increase the reliability of all the applications and automate processes. I also helped in other business related tasks.
+Company left the country and it became my first customer.
 
 **Main project**:
 
@@ -110,7 +100,7 @@ _Linux, Elixir, Erlang/OTP, Python, Bash, Nginx, AngularJS, Javascript, Docker, 
 
 _Senior SW Engineer_ • Sep, 2015 — Sep, 2016
 
-Palmtree Statistics first tech employee and, therefore, I had to create all the tech environment of Palmtree Statistics to later design, develop and maintain on production SW solutions to help professional sport traders.
+Palmtree Statistics first tech employee and, therefore, I had to create all the tech environment of Palmtree Statistics to later design, develop and maintain on production SW solutions to help professional sport traders. Directly working with the CEO and the co-founders.
 
 **Main project**:
 
@@ -126,7 +116,7 @@ _Linux, Elixir, Erlang/OTP, Python, Bash, Nginx, AngularJS, Javascript, Docker, 
 
 _R&D Engineer_ • Jun, 2011 — Aug, 2015
 
-Collaborating with several agile teams distributed around the world developing SW tools which were used to optimize mobile (GSM, UMTS and LTE) networks of several vendors. Information traces of the network nodes were analyzed in order to identify and geo-locate issues.
+Collaborating with several agile teams distributed around the world developing SW tools which were used to optimize mobile (GSM, UMTS and LTE) networks of several vendors like AT&T, Telefonica, Vodafone or Deutsche Telekom. Information traces of the network nodes were analyzed in order to identify and geo-locate issues.
 
 **Main Project**:
 
@@ -142,11 +132,11 @@ _Java, C++, Python, MySQL, GSM, UMTS, LTE_.
 
 _Control & Communications Engineer_ • Oct, 2009 — Jun, 2011
 
-Being part of a cross-functional team to develop industrial HVAC solutions, mainly for airports, where my responsibility was Software and Hardware related. Start-ups, on-site updates and trainings were also my tasks.
+Being part of a cross-functional team to develop industrial HVAC solutions, mainly for airports, where my responsibility was Software and Hardware related. Start-ups, on-site updates and training were also my tasks.
 
 **Main Project**:
 
-Emirates Airlines Engineering Center project (Dubai)
+Emirates Airlines Engineering Center project (Dubai - UAE)
 
 **Technologies**:
 
