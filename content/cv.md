@@ -51,7 +51,7 @@ Participating in **projects** around the world playing different roles:
 
 **Technologies**:
 
-_Linux, Kubernetes, Docker, Cloud(AWS, Azure, GCP, OpenStack), Python, Go, Elixir, Erlang/OTP, Rust, Bash, Terraform, Ansible, CI/CD(Jenkins, Gitlab, GitHub Actions), Nginx, HA-Proxy, DC/OS, Mesos, Marathon, Zookeeper, MongoDB, Couchbase, PostgreSQL, MySQL, RabbitMQ, 0MQ, Kafka_.
+_Linux, Kubernetes, Docker, Cloud(AWS, Azure, GCP, OpenStack), Python, Go, Elixir, Erlang/OTP, Rust, Java, Bash, Terraform, Ansible, CI/CD(Jenkins, Gitlab, GitHub Actions), Nginx, HA-Proxy, DC/OS, Mesos, Marathon, Zookeeper, MongoDB, Couchbase, PostgreSQL, MySQL, RabbitMQ, 0MQ, Kafka_.
 
 </br>
 
