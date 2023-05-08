@@ -22,6 +22,8 @@ _Backgammon Galaxy_ • Apr, 2023 — Present
 
 Hands-on CTO wearing several hats and trying to build a shiny online backgammon game for a great community.
 
+[https://play.backgammongalaxy.com/](https://play.backgammongalaxy.com/)
+
 * Team Leadership
 * Project management
 * Budget Allocation
