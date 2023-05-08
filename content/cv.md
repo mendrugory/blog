@@ -16,9 +16,22 @@ I enjoy solving problems using Software and helping people to do the same, guidi
 
 ## Experience
 
-### Adysof Solutions
+### CTO
 
-_Founder and Technical Director_ • Apr, 2020 — Present
+_Backgammon Galaxy_ • Apr, 2023 — Present
+
+Hands-on CTO wearing several hats and trying to build a shiny online backgammon game for a great community.
+
+* Team Leadership
+* Project management
+* Budget Allocation
+* Software Development
+* Cloud Architecture
+* Continuous Integration
+
+### Co-Founder and Technical Director
+
+_Adysof Solutions_ • Apr, 2020 — Mar, 2023
 
 I help my customers to design, build and maintain cloud-native applications.
   
@@ -79,9 +92,9 @@ Working as freelance helping companies to achieve their goals.
 
 _Linux, Kubernetes, Docker, Cloud(AWS, Azure, GCP, OpenStack), Python, Go, Elixir, Erlang/OTP, Java, Bash, Terraform, Ansible, CI/CD(Jenkins, Gitlab, GitHub Actions), Nginx, HA-Proxy, DC/OS, Mesos, Marathon, Zookeeper, MongoDB, Couchbase, PostgreSQL, MySQL, RabbitMQ, 0MQ, Kafka_.
 
-### Palmtree Statistics
+### Chief SW Architect
 
-_Chief SW Architect_ • Oct, 2016 — Dec, 2017
+_Palmtree Statistics_ • Oct, 2016 — Dec, 2017
 
 I became the biggest tech authority of the company, directly working with the CEO and the co-founders. Focus on building teams, helping and guiding other colleagues, improve the architecture to include new use cases, increase the reliability of all the applications and automate processes. I also helped in other business related tasks.
 Company left the country and it became my first customer.
@@ -96,9 +109,9 @@ _Linux, Elixir, Erlang/OTP, Python, Bash, Nginx, AngularJS, Javascript, Docker, 
 
 </br>
 
-### Palmtree Statistics
+### Senior SW Engineer
 
-_Senior SW Engineer_ • Sep, 2015 — Sep, 2016
+_Palmtree Statistics_ • Sep, 2015 — Sep, 2016
 
 Palmtree Statistics first tech employee and, therefore, I had to create all the tech environment of Palmtree Statistics to later design, develop and maintain on production SW solutions to help professional sport traders. Directly working with the CEO and the co-founders.
 
@@ -112,9 +125,9 @@ _Linux, Elixir, Erlang/OTP, Python, Bash, Nginx, AngularJS, Javascript, Docker, 
 
 </br>
 
-### Ericsson
+### R&D Engineer
 
-_R&D Engineer_ • Jun, 2011 — Aug, 2015
+_Ericsson_ • Jun, 2011 — Aug, 2015
 
 Collaborating with several agile teams distributed around the world developing SW tools which were used to optimize mobile (GSM, UMTS and LTE) networks of several vendors like AT&T, Telefonica, Vodafone or Deutsche Telekom. Information traces of the network nodes were analyzed in order to identify and geo-locate issues.
 
@@ -128,9 +141,9 @@ _Java, C++, Python, MySQL, GSM, UMTS, LTE_.
 
 </br>
 
-### Ciat
+### Control & Communications Engineer
 
-_Control & Communications Engineer_ • Oct, 2009 — Jun, 2011
+_Ciat_ • Oct, 2009 — Jun, 2011
 
 Being part of a cross-functional team to develop industrial HVAC solutions, mainly for airports, where my responsibility was Software and Hardware related. Start-ups, on-site updates and training were also my tasks.
 
