@@ -20,7 +20,7 @@ I enjoy solving problems using Software and helping people to do the same, guidi
 
 _Backgammon Galaxy_ • Apr, 2023 — Present
 
-Hands-on CTO wearing several hats and trying to build a shiny online backgammon game for a great community.
+Hands-on CTO wearing several hats and building a shiny online backgammon game for a great community. Working for several years as consultant, I help to organize the tech area, creating a culture, adapting the way of working, deciding about the SW architecture and the SW technologies, and reporting directly to the CEO.
 
 [https://play.backgammongalaxy.com/](https://play.backgammongalaxy.com/)
 
