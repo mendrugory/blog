@@ -1,6 +1,6 @@
 +++
 date = "2015-07-28"
-draft = false
+draft = true
 layout = "about"
 title = "CV"
 menu = "main"
