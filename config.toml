@@ -20,12 +20,6 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   identifier = "post"
   url = "/post/"
 
-[[menu.main]]
-  name = "Consultancy"
-  weight = 20
-  identifier = "work"
-  url = "https://www.adysof.com"
-
 # Add your own params here
 [params]
   author = "Gonzalo"
