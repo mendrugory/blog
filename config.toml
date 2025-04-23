@@ -22,7 +22,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
 
 # Add your own params here
 [params]
-  author = "Gonzalo"
+  author = "mendrugory"
   avatar = "/img/avatar.jpg"
   seotitle = "Mendrugory's Web"
   subtitle = "~ Thinking ... ~"
@@ -33,7 +33,6 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   email = "iam@mendrugory.com"
   github = "mendrugory"
   twitter = "mendrugory"
-  linkedin = "gonzalogabrieljimenezfuentes"
   stackoverflow = "mendrugory"
   # weibo = "weibo_username"
   # wechat= "/img/qrcode.jpg" # Replace with your wechat qrcode image
