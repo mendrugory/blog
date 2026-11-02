@@ -9,33 +9,33 @@ index: true
   <img alt="Intel Edison" src="/img/5029974.jpeg" style="max-width:300px;width:100%"/>
 </p>
 
-I have begun to work with [Intel Edison](https://www-ssl.intel.com/content/www/us/en/do-it-yourself/edison.html) in order to adapt machines with limited or even no connectivity to the movement of [IoT](http://en.wikipedia.org/wiki/Internet_of_Things).
+I have started working with the [Intel Edison](https://www-ssl.intel.com/content/www/us/en/do-it-yourself/edison.html) to bring machines with limited or no connectivity into the [IoT](http://en.wikipedia.org/wiki/Internet_of_Things).
 
-This tiny platform is already prepared to work with Python but, if you want to work with Python, you want to work with [pip](http://en.wikipedia.org/wiki/Pip_%28package_manager%29). Pip is an amazing package manager where we can find almost all the Python libraries that we are going to use.
+This tiny platform comes ready to run Python, but if you work with Python, you want [pip](http://en.wikipedia.org/wiki/Pip_%28package_manager%29): an amazing package manager that gives us access to almost every Python library we will need.
 
 ## Getting Started
 
-Firstly we connect two micro-USB cables to the mini breakout board and we run a Linux terminal.
+First, connect two micro-USB cables to the mini breakout board and open a Linux terminal.
 
-The easiest way to communicate with the board is through the serial port:
+The easiest way to talk to the board is through the serial port:
 
 ```
 user@machine:~$ sudo screen /dev/ttyUSB0 115200
 ```
 
-Press Enter and you'll get a login prompt. Type **root** and no password is needed. Now you are connected to the Edison through the serial port.
+Press Enter and you'll get a login prompt. Log in as **root**; no password is needed. You are now connected to the Edison through the serial port.
 
-To activate the WiFi is very easy, type:
+Enabling WiFi is very easy. Just type:
 
 ```
 root@edison:~# configure_edison --wifi
 ```
 
-Wait for a few seconds, select your network and type your password.
+Wait a few seconds, select your network and enter your password.
 
 ## Add Unofficial Repository
 
-Intel Edison is powered by [Yocto](https://www.yoctoproject.org/) but pip is not in the official repositories, therefore we need to add the unofficial repositories.
+The Intel Edison runs [Yocto](https://www.yoctoproject.org/), but pip is not in its official repositories, so we need to add the unofficial ones.
 
 We begin by getting the latest [Intel® IoT Developer Kit libraries](https://software.intel.com/en-us/articles/managing-devkit-libraries-intel-edison-or-intel-galileo-board).
 
@@ -45,7 +45,7 @@ root@edison:~# opkg update
 root@edison:~# opkg upgrade
 ```
 
-Open `vi` and add the unofficial repositories:
+Open the feeds file with `vi` and add the unofficial repositories:
 
 ```
 root@edison:~# vi /etc/opkg/base-feeds.conf
@@ -59,7 +59,7 @@ src/gz edison http://repo.opkg.net/edison/repo/edison
 src/gz core2-32 http://repo.opkg.net/edison/repo/core2-32
 ```
 
-Close the file and update:
+Save the file and update:
 
 ```
 root@edison:~# opkg update
@@ -71,7 +71,7 @@ root@edison:~# opkg update
 root@edison:~# opkg install python-pip
 ```
 
-After running the above command, everything seems to be fine. You already have your pip and you will be able to install everything that you want, for example [Flask](http://flask.pocoo.org/).
+After running this command, everything seems fine. You have pip, so you should be able to install anything you want, for example [Flask](http://flask.pocoo.org/):
 
 ```
 root@edison:~# pip install flask
@@ -81,7 +81,7 @@ Traceback (most recent call last):
 ImportError: No module named pkg_resources
 ```
 
-But we get an error. This error means that we do not have [setuptools](https://pypi.python.org/pypi/setuptools), so we try to install it. If we try to use `wget`, the Edison will not be able to download it because it cannot download from https. Therefore, we could download it to our PC and use `scp` to copy the library to the board.
+But we get an error. It means [setuptools](https://pypi.python.org/pypi/setuptools) is missing, so we need to install it. We can't simply fetch it with `wget`, because the Edison can't download over HTTPS. Instead, we can download it on our PC and copy it to the board with `scp`:
 
 ```
 root@edison:~# scp user@machine:/home/user/Download/setuptools-12.2.tar.gz /home/root
@@ -89,14 +89,14 @@ root@edison:~# tar zxf setuptools-12.2.tar.gz
 root@edison:~# python setuptools-12.2/ez_setup.py
 ```
 
-Or use the insecure (but faster and easier) way:
+Or take the insecure (but faster and easier) route:
 
 ```
 root@edison:~# wget --no-check-certificate https://bootstrap.pypa.io/ez_setup.py
 root@edison:~# python ez_setup.py --insecure
 ```
 
-After having installed setuptools we can install whatever we need:
+Once setuptools is installed, we can install whatever we need:
 
 ```
 root@edison:~# pip install flask
