@@ -5,36 +5,36 @@ url: /post/kubernetes-persistent-volumes
 description: Working with data in Kubernetes means that you will manage persistent volumes. Resizing your pv is not simple if your cloud provider does not support yet
 ---
 
-One of the first steps when you work with data which must be stored is to estimate the disk size. This is really hard, especially when your application is new.
+One of the first steps when you work with data that must be stored is estimating the disk size. This is really hard, especially when your application is new.
 
-Working in a cloud environment gives us the flexibility of using the resources that we need in *almost* any moment without wasting our money in resources that we will use in the future, if everything goes right.
+Working in a cloud environment gives us the flexibility to use the resources we need at *almost* any moment, without wasting money on resources that we will only use in the future, if everything goes well.
 
-If your application is working in a cloud virtual machine and it needs to store some data, the approach would be to attach a new disk for this data, instead of using the default disk of the virtual machine. This new disk could be used by other virtual machine if the current one suffers any problem, without loosing the data.
+If your application runs on a cloud virtual machine and needs to store some data, the usual approach is to attach a new disk for that data instead of using the virtual machine's default disk. This new disk could then be used by another virtual machine if the current one has any problem, without losing the data.
 
-Attaching new disks to our cloud virtual machines is very common but, what would happen if we work with containers?
+Attaching new disks to our cloud virtual machines is very common, but what happens when we work with containers?
 
-Some new concepts are introduced when we work with containers, using for example Kubernetes, in a cloud environment. The application will run, directly, in containers, although the containers will be in the virtual machines, and the persistent data will be stored in [persistent volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/), although this volumes will be in attached disks.
+Some new concepts come into play when we work with containers in a cloud environment, using Kubernetes for example. The application runs directly in containers (although the containers live on the virtual machines), and the persistent data is stored in [persistent volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) (although these volumes are backed by attached disks).
 
-**It is possible to resize a persistent volume in Kubernetes** since version 1.11, but it is not supported by all the cloud providers. Therefore, what should we do if we need a bigger volume?
+**It has been possible to resize a persistent volume in Kubernetes** since version 1.11, but not all cloud providers support it. So what should we do if we need a bigger volume?
 
-> It is not possible in Azure AKS at this moment.
+> It is not possible in Azure AKS at the moment.
 
-The first idea that comes up is to attach a new volume to the container, like we would do with a disk and a virtual machine. But it is not possible to attach new volumes to running containers.
+The first idea that comes to mind is to attach a new volume to the container, as we would do with a disk and a virtual machine. But it is not possible to attach new volumes to running containers.
 
-So we think in stopping the application for a while and migrate the data between volumes. How can we do it?
+So we think about stopping the application for a while and migrating the data between volumes. How can we do it?
 
 > The examples are based on Azure AKS.
 
 
 #### Delete the Pod
 
-The first step should be to stop the pod in order to avoid writes in the middle of the migration which could cause problems.
+The first step should be to stop the pod, to avoid writes in the middle of the migration that could cause problems.
 
 ```bash
 $ kubectl delete -f myapp.yml
 ```
 
-> I guess that the definition of your current deployment/replicaset/pod is in myapp.yml
+> I assume that the definition of your current deployment/replicaset/pod is in myapp.yml.
 
 #### Bigger Volume
 
@@ -76,7 +76,7 @@ $ kubectl apply -f pvc.yml
 
 #### Start a helper Pod
 
-The next step is to run a helper pod where we will attach the two volumes and it will be used to execute the migration of the data.
+The next step is to run a helper pod, with both volumes attached, which we will use to migrate the data.
 
 *helper.yml*
 
@@ -113,19 +113,19 @@ spec:
           claimName: my-new-claim
 ```
 
-A ubuntu container will be started and two volumes will be attached to it. The current data will be found in */data/old* and the new one, */data/new* will be empty. The main process is a *sleep* command which will take one hour. If you need more time to execute your tasks, increase it.
+An Ubuntu container will be started with the two volumes attached to it. The current data will be in */data/old*, and the new volume, */data/new*, will be empty. The main process is a *sleep* command that lasts one hour. If you need more time for your tasks, increase it.
 
 ```bash
 $ kubectl apply -f helper.yml
 ```
 
-Once the container is up and running, we will connect to it:
+Once the container is up and running, we connect to it:
 
 ```bash
 $ kubectl exec -it <name of the pod> bash
 ```
 
-And we will execute the migration, for example, copy all the data from old volume to the new one:
+And run the migration, for example, copying all the data from the old volume to the new one:
 
 ```bash
 $ cp -r /data/old /data/new
@@ -187,7 +187,7 @@ $ kubectl apply -f myapp.yml
 
 #### Remove the old Persistent Volume
 
-The persistent volume claim requests a disk to the cloud provider and it costs money so, if we are not going to use the old volume anymore, we should delete it:
+The persistent volume claim requests a disk from the cloud provider, and that costs money, so if we are not going to use the old volume anymore, we should delete it:
 
 ```bash
 $ kubectl delete pvc my-claim
@@ -196,4 +196,4 @@ $ kubectl delete pvc my-claim
 
 ## Conclusion
 
-Working in the cloud is very flexible but we always have to take into account the limitations or the future problems that we can have, besides working with containers increases the flexibility but also increases the complexity of the environment.
+Working in the cloud is very flexible, but we always have to take into account its limitations and the problems we may face in the future. Besides, working with containers increases flexibility, but it also increases the complexity of the environment.

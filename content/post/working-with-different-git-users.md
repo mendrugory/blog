@@ -5,9 +5,9 @@ url: /post/working-with-different-git-users
 description: How to deal with permission problems when you have different GIT users for the same GIT service.
 ---
 
-Having several users in a GIT hosting service is really normal: a user for your professional projects, a user for a company that you work with/for, a user for your pet projects and so on. Different users need different registered SSH keys in the same GIT service provider, so your PC can raise some messages like the following when you try to clone a project:
+Having several users on a GIT hosting service is quite normal: a user for your professional projects, a user for a company that you work with/for, a user for your pet projects and so on. Different users need different SSH keys registered with the same GIT service provider, so your PC may show messages like the following when you try to clone a project:
 
-```bash
+```
 Permission denied, please try again.
 fatal: Could not read from remote repository.
 
@@ -15,9 +15,9 @@ Please make sure you have the correct access rights
 and the repository exists.
 ```
 
-You know that you have the right access, because you can check it in their web client after being logged with the right user. But your git cli is using another client. How can you solve it without changing your global GIT settings?
+You know that you have the right access, because you can check it in their web client after logging in with the right user. But your git CLI is using a different user. How can you solve this without changing your global GIT settings?
 
-We are going to indicate the right *user*, *email* and especially the right *SSH key* that has to be used for this project:
+We are going to specify the right *user*, *email* and, especially, the right *SSH key* to be used for this project:
 
 > I assume that you work with Linux/Mac
 
@@ -66,5 +66,4 @@ $ git branch --set-upstream-to=origin/master
 $ git fetch --all
 ```
 
-
-Using this solution you will directly associate this GIT repository to the right GIT user without affecting other GIT configuration in your PC.
+With this solution, you directly associate this GIT repository with the right GIT user without affecting any other GIT configuration on your PC.

@@ -6,11 +6,10 @@ url: /post/welcome-back
 
 # New Web, let's start again
 
-I have been offline for a lot of months, but it does not mean that I have been doing nothing (just the opposite). One of the things that I wanted to do is to move my blog from Weebly. It was not bad, but the writing experience was a bit unpleasure. After being experimenting with [Hugo](https://gohugo.io/) and writing in Markdown I decided to do the same with my blog.
+I have been offline for many months, but that does not mean I have been doing nothing (quite the opposite). One of the things I wanted to do was to move my blog away from Weebly. It was not bad, but the writing experience was a bit unpleasant. After experimenting with [Hugo](https://gohugo.io/) and writing in Markdown, I decided to do the same with my blog.
 
-I have been also using the nickname _mendrugory_ since I had access to Internet, using hotmail and gmail emails accounts, but I never bought the domain.
+I have also been using the nickname _mendrugory_ since I first had access to the Internet, for my Hotmail and Gmail accounts, but I had never bought the domain.
 
-Otherwise, today everything changed. I extracted all the info from my old blog using this [code](https://github.com/mendrugory/weebly-scraper), I created a hugo project, I bought the domain and I deployed it using [Netlify](https://www.netlify.com) (by the way, really easy tool).
-
+Today, however, everything changed. I extracted all the content from my old blog using this [code](https://github.com/mendrugory/weebly-scraper), created a Hugo project, bought the domain and deployed it using [Netlify](https://www.netlify.com) (a really easy tool, by the way).
 
 I will try to post more frequently.

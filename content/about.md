@@ -8,4 +8,4 @@ weight = 40
 comments = false
 +++
 
-You don't really want to know about me. Check the website and you will discover much more interesting stuffs :stuck_out_tongue_winking_eye:.
+You don't really want to know about me. Check out the website and you will discover much more interesting stuff :stuck_out_tongue_winking_eye:.

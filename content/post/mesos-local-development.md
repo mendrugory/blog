@@ -4,20 +4,20 @@ date: 2018-11-13
 url: /post/mesos-local-development
 ---
 
-Last week I felt so nostalgic about working with [Mesos](http://mesos.apache.org/) because I do not have more projects which work with this technology and people are only demanding [Kubernetes](http://kubernetes.io/).
+Last week I felt nostalgic about working with [Mesos](http://mesos.apache.org/), because I no longer have any projects that use this technology and people only ask for [Kubernetes](http://kubernetes.io/).
 
-Mesos is a project which was born in Berkeley, now under the [Apache umbrella](https://www.apache.org/index.html#projects-list), and whose target is the management of computer clusters. It will help us to create distributed systems with the feeling that we are only working with a really big machine. Mesos gather the resources of all the machines that join the cluster and take care of deploying the application in those places with enough resources.
+Mesos is a project that was born at Berkeley, is now under the [Apache umbrella](https://www.apache.org/index.html#projects-list), and whose goal is managing computer clusters. It helps us create distributed systems with the feeling that we are working with a single, really big machine. Mesos gathers the resources of all the machines that join the cluster and takes care of deploying applications wherever there are enough resources.
 
-Mesos is so powerful and according to some studies, it can scale to huge number of nodes much better than Kubernetes. But we don't need to compare Mesos and Kubernetes, because according to [Mesosphere](https://mesosphere.com/blog/kubernetes-dcos/) guys, they can work together (one on top of another).
+Mesos is very powerful and, according to some studies, it can scale to a huge number of nodes much better than Kubernetes. But we don't need to compare Mesos and Kubernetes because, according to the [Mesosphere](https://mesosphere.com/blog/kubernetes-dcos/) folks, they can work together (one on top of the other).
 
-I have been working with Mesos projects, and its orchestrator [Marathon](https://mesosphere.github.io/marathon/), for 3 years, and the results were really good, but the movement of the market is towards Kubernetes and we have to stay where the market says.
+I worked on Mesos projects, with its orchestrator [Marathon](https://mesosphere.github.io/marathon/), for 3 years, and the results were really good, but the market is moving towards Kubernetes and we have to go where the market goes.
 
-Therefore, I wished to release an useful tool for those guys who want to play with Mesos or to try your systems locally (if you can). The project will launch 3 virtual machines which will be the Mesos cluster.
+So I wanted to release a useful tool for those who want to play with Mesos or try their systems locally (if they can). The project launches 3 virtual machines that form the Mesos cluster.
 
 ## Dependencies
 
 * [Vagrant](https://www.vagrantup.com/)
-* A Vagrant provider to run virtual machines (i.e. [VirtualBox](https://www.virtualbox.org/))
+* A Vagrant provider to run virtual machines (e.g. [VirtualBox](https://www.virtualbox.org/))
 * [Ansible](https://www.ansible.com/)
 
 
@@ -40,17 +40,17 @@ $ vagrant up
 $ ansible-playbook mesos.yml
 ```
 
-Now you can check whatever of the mesos servers (i.e. [192.168.33.11:5050](http://192.168.33.11:5050)):
+Now you can check any of the Mesos servers (e.g. [192.168.33.11:5050](http://192.168.33.11:5050)):
 
 ![Mesos Dashboard](/img/mesos-dashboard.png)
 
 
-And Marathon servers (i.e. [192.168.33.11:8080](http://192.168.33.11:8080)):
+And the Marathon servers (e.g. [192.168.33.11:8080](http://192.168.33.11:8080)):
 
 ![Marathon Dashboard](/img/marathon-dashboard.png)
 
 
-I also installed [Docker](https://www.docker.com/), therefore we could try to launch 3 replicas of Nginx in our Mesos Cluster:
+I also installed [Docker](https://www.docker.com/), so we can try launching 3 replicas of Nginx in our Mesos cluster:
 
 
 ![Nginx Marathon General](/img/nginx-marathon-1.png)

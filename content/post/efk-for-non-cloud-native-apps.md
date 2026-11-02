@@ -4,13 +4,13 @@ date: 2018-09-18
 url: /post/efk-for-non-cloud-native-apps
 ---
 
-Recently I worked in a project where I had to migrate a Mesos infrastructure to Kubernetes and one of the key requirements was to replace **ELK** _(elasticsearch - logstash - kibana)_ with **EFK** _(elasticsearch - fluentd - kibana)_.
+Recently I worked on a project where I had to migrate a Mesos infrastructure to Kubernetes, and one of the key requirements was to replace **ELK** _(elasticsearch - logstash - kibana)_ with **EFK** _(elasticsearch - fluentd - kibana)_.
 
-You can find a lot of information of how to use EFK in Kubernetes when your applications logs in the standard output putting a Fluentd agent in every node, but that did not happen with all the applications in the Mesos infrastructure. Most of them used a specific file to log the information and had a custom log rotator. 
+You can find a lot of information about how to use EFK in Kubernetes when your applications log to standard output, by putting a Fluentd agent on every node, but that was not the case for all the applications in the Mesos infrastructure. Most of them logged to a specific file and had a custom log rotator.
 
-I could not apply the common way of using Fluentd and I could not modify the applications to change the log configuration, therefore my approach was to add a fluentd agent in every pod following the sidecar pattern and mount a volume to communicate the logs of the application with fluentd.
+I could not use Fluentd in the usual way, and I could not modify the applications to change their log configuration, so my approach was to add a Fluentd agent to every pod following the sidecar pattern, and to mount a shared volume so Fluentd could read the application's logs.
 
-All the fluentd agents will act in the same way, so we can share the same configuration using a `ConfigMap`:
+All the Fluentd agents behave the same way, so they can share the same configuration through a `ConfigMap`:
 
 ```yaml
 apiVersion: v1
@@ -52,7 +52,7 @@ data:
 ```
 
 
-And the common pod would look like the following:
+And a typical pod would look like this:
 
 ```yaml
 apiVersion: apps/v1beta1
@@ -113,10 +113,10 @@ spec:
 ```
 
 
-Although this approach is going to consume more resources from your cluster, especially RAM memory, at least you have a possibility of having the logs of your applications without modifying them and you will give time to the guys (maybe is also you) to change the log configuration of the applications.
+Although this approach consumes more of your cluster's resources, especially RAM, at least you can collect your applications' logs without modifying them, and it gives the people responsible (maybe you) time to change the applications' log configuration.
 
 
-You can also find here the `yamls` for the logging namespace:
+Here you can also find the `yamls` for the logging namespace:
 
 `logging-ns.yaml`
 
@@ -128,6 +128,7 @@ metadata:
 ```
 
 `es-curator-config.yaml`
+
 ```yaml
 apiVersion: v1
 kind: ConfigMap
@@ -190,6 +191,7 @@ data:
 ```
 
 `es-curator.yaml`
+
 ```yaml
 apiVersion: batch/
 kind: CronJob
@@ -214,9 +216,10 @@ spec:
               configMap:
                 name: curator-config
           restartPolicy: OnFailure
-```          
+```
 
 `elasticsearch.yaml`
+
 ```yaml
 apiVersion: apps/v1
 kind: Deployment
@@ -283,10 +286,11 @@ spec:
   - name: http
     port: 9200
     targetPort: http
-```   
+```
 
 
 `kibana.yaml`
+
 ```yaml
 apiVersion: apps/v1
 kind: Deployment

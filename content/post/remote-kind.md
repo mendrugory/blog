@@ -4,17 +4,17 @@ date: 2021-12-10
 url: /post/remote-kind
 ---
 
-> NOTE: This content is just for testing and experimentation. It can provoke many security issues therefore, do not use in a production environment.
+> NOTE: This content is just for testing and experimentation. It can cause many security issues, so do not use it in a production environment.
 
-Some days ago, a question was raised in a Slack channel of [Clastix](https://clastix.io/), the company I currently work for: *Could I launch a kind cluster in a remote machine?* I directly thought, *yes, you could*, but let's see how.
+Some days ago, a question came up in a Slack channel at [Clastix](https://clastix.io/), the company I currently work for: *Could I launch a kind cluster on a remote machine?* My immediate thought was *yes, you could*, but let's see how.
 
-[Kind](https://kind.sigs.k8s.io/) is a magnificient tool for those people who develop for [Kubernetes](kubernetes.io/) or test their SW directly in [Kubernetes](kubernetes.io/). Every Kind's nodes will be a [Docker](https://www.docker.com/) container and this is the key part of having the possibility of launching remote Kind clusters.
+[Kind](https://kind.sigs.k8s.io/) is a magnificent tool for people who develop for [Kubernetes](https://kubernetes.io/) or test their software directly on [Kubernetes](https://kubernetes.io/). Every Kind node is a [Docker](https://www.docker.com/) container, and this is the key to being able to launch remote Kind clusters.
 
-Firstly, we need to have a remote machine. If you already have it, you can skip next section and go directly to [Docker](#docker) section.
+First, we need a remote machine. If you already have one, you can skip the next section and go directly to the [Docker](#docker) section.
 
 ## Virtual Machine
 
-For this experiment, a virtual machine will be used as remote machine. You can work with the system you are more comfortable with but the example is based on [Multipass](https://multipass.run/) to use [KVM](https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine) in a Linux machine.
+For this experiment, a virtual machine will be used as the remote machine. You can use whichever system you are most comfortable with, but the example is based on [Multipass](https://multipass.run/) to use [KVM](https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine) on a Linux machine.
 
 ### Launch Virtual Machine
 
@@ -30,7 +30,7 @@ Name                    State             IPv4             Image
 remote                  Running           10.192.157.65    Ubuntu 20.04 LTS
 ```
 
-### Go into
+### Log into the Virtual Machine
 
 ```bash
 ubuntu@local:~$ multipass shell remote
@@ -38,13 +38,13 @@ Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 5.4.0-91-generic x86_64)
 ubuntu@remote:~$ 
 ```
 
-Now we have a remote Linux machine running Ubuntu 20.04
+Now we have a remote Linux machine running Ubuntu 20.04.
 
 ## Docker
 
-Docker daemon is a server application which exposes an API to work with. By default, docker daemon is only exposed through a UNIX socket but we can also expose a TCP socket modifying the configuration.
+The Docker daemon is a server application that exposes an API to work with. By default, the Docker daemon is only exposed through a UNIX socket, but we can also expose a TCP socket by modifying the configuration.
 
-Firstly, we must have docker.
+First, we need Docker.
 
 ### Installation
 
@@ -55,7 +55,7 @@ ubuntu@remote:~$ sudo apt install -y docker.io
 
 ### Configuration
 
-The easiest way to manage docker's configuration is using the file `/etc/docker/daemon.json` where we are going to expose the daemon using the remote machine IP and we will also leave the UNIX socket to still working with `docker CLI` from the remote machine:
+The easiest way to manage Docker's configuration is through the file `/etc/docker/daemon.json`, where we are going to expose the daemon on the remote machine's IP. We will also keep the UNIX socket so we can still use the `docker CLI` from the remote machine:
 
 ```json
 {
@@ -64,13 +64,13 @@ The easiest way to manage docker's configuration is using the file `/etc/docker/
 }
 ```
 
-And check that `ExecStart` field within file `/lib/systemd/system/docker.service` is like:
+Then check that the `ExecStart` field in the file `/lib/systemd/system/docker.service` looks like this:
 
 ```conf
 ExecStart=/usr/bin/dockerd  --containerd=/run/containerd/containerd.sock
 ```
 
-Finally, restart the service and add your user to the `docker` group to avoid using `sudo` (it will work after finishing the session):
+Finally, restart the service and add your user to the `docker` group to avoid using `sudo` (this takes effect after you log out and back in):
 
 ```bash
 ubuntu@remote:~$ sudo systemctl daemon-reload
@@ -78,7 +78,7 @@ ubuntu@remote:~$ sudo systemctl restart docker
 ubuntu@remote:~$ sudo gpasswd -a $USER docker
 ```
 
-And we can work with docker:
+Now we can work with Docker:
 
 ```bash
 ubuntu@remote:~$ docker pull kindest/node:v1.23.0
@@ -96,15 +96,15 @@ kindest/node   v1.23.0   b3dd68fe0a8c   2 days ago   1.46GB
 
 Let's go back to our local machine.
 
-### Pointing Remote Docker Daemon
+### Pointing to the Remote Docker Daemon
 
-`Docker CLI` uses environment variable `DOCKER_HOST` to build their requests, so:
+The `Docker CLI` uses the environment variable `DOCKER_HOST` to build its requests, so:
 
 ```bash
 export DOCKER_HOST="tcp://10.192.157.65"
 ```
 
-Now, all the `docker cli` requests will go to the remote machine
+Now all the `docker cli` requests will go to the remote machine:
 
 ```bash
 ubuntu@local:~$ docker images
@@ -114,7 +114,7 @@ kindest/node   v1.23.0   b3dd68fe0a8c   2 days ago   1.46GB
 
 ## Kind
 
-The first step is installing Kind. Check how to install it [here](https://kind.sigs.k8s.io/docs/user/quick-start#installation).
+The first step is to install Kind. Check how to install it [here](https://kind.sigs.k8s.io/docs/user/quick-start#installation).
 
 ### Check Kind Version
 
@@ -125,7 +125,7 @@ kind v0.11.1
 
 ### Launch a Remote Kind Cluster
 
-Kind offers a very flexible configuration, but for our case, we will be focus on the `API Server`.
+Kind offers a very flexible configuration, but in our case we will focus on the `API Server`.
 
 ```bash
 ubuntu@local:~$ cat <<EOF | kind create cluster --image=kindest/node:v1.23.0 --name remote --config=-
@@ -159,7 +159,7 @@ kind-remote
 
 ### Check the Nodes
 
-As we said, Kind's nodes are Docker containers therefore, let's check them:
+As we said, Kind's nodes are Docker containers, so let's check them:
 
 ```bash
 ubuntu@local:~$ docker ps

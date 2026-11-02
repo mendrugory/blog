@@ -10,7 +10,7 @@ comments = false
 
 # Gonzalo Gabriel Jiménez Fuentes
 
-I enjoy solving problems using Software and helping people to do the same, guiding them or through training. I have developed a wide range of projects, this fact has made me to deal with a large range of problems and paradigms, but always taking into account scalability, resilience and fault tolerance. My software systems are currently running in data center, in mobile phones or even in airports. I consider myself a team player which always helps every person involved in the project to success. My Background is in Telecom therefore I like the projects that involve real-time, networking, messaging, concurrency and so on. I also like to share my knowledge publishing posts in blogs and releasing my open source projects.
+I enjoy solving problems with software and helping people do the same, whether by guiding them or through training. I have developed a wide range of projects, which has led me to deal with many different problems and paradigms, always taking into account scalability, resilience and fault tolerance. My software systems are currently running in data centers, on mobile phones and even in airports. I consider myself a team player who always helps everyone involved in a project to succeed. My background is in telecom, so I like projects that involve real-time, networking, messaging, concurrency and so on. I also like to share my knowledge by publishing blog posts and releasing my open source projects.
 
 </br></br>
 
@@ -20,7 +20,7 @@ I enjoy solving problems using Software and helping people to do the same, guidi
 
 _Backgammon Galaxy_ • Apr, 2023 — Present
 
-Hands-on CTO wearing several hats and building a shiny online backgammon game for a great community. Working for several years as consultant, I help to organize the tech area, creating a culture, adapting the way of working, deciding about the SW architecture and the SW technologies, and reporting directly to the CEO.
+Hands-on CTO wearing several hats and building a shiny online backgammon game for a great community. After working for several years as a consultant, I help organize the tech area: creating a culture, adapting the way of working, and deciding on the SW architecture and technologies, reporting directly to the CEO.
 
 [https://play.backgammongalaxy.com/](https://play.backgammongalaxy.com/)
 
@@ -35,8 +35,8 @@ Hands-on CTO wearing several hats and building a shiny online backgammon game fo
 
 _Adysof Solutions_ • Apr, 2020 — Mar, 2023
 
-I help my customers to design, build and maintain cloud-native applications.
-  
+I help my customers design, build and maintain cloud-native applications.
+
 * Software Development
 * Devops
 * Tech Advisor
@@ -46,9 +46,9 @@ I help my customers to design, build and maintain cloud-native applications.
 
 Check out some of the [published projects](https://www.adysof.com/case-studies).
 
-Participating in **projects** around the world playing different roles:
+Participating in **projects** around the world in different roles:
 
-* Hosting with more than 80000 online websites
+* Hosting with more than 80000 websites online
 * CDN with more than 10000 users
 * Real Time Sport Bots system
 * AWS Cloud Automation
@@ -56,7 +56,7 @@ Participating in **projects** around the world playing different roles:
 * Secure Cloud Communication system offered as PaaS
 * Multi-tenant tools for Kubernetes
 
-**Training**: (Every training has been delivered several times to different companies)
+**Training**: (each course has been delivered several times to different companies)
 
 * Docker
 * Kubernetes
@@ -74,7 +74,7 @@ _Linux, Kubernetes, Docker, Cloud(AWS, Azure, GCP, OpenStack), Python, Go, Elixi
 
 _SW Development and DevOps Consultant_ Jan, 2018 - May, 2020
 
-Working as freelance helping companies to achieve their goals.
+Working as a freelancer, helping companies achieve their goals.
 
 **Projects**:
 
@@ -84,7 +84,7 @@ Working as freelance helping companies to achieve their goals.
 * Control system of video cameras and weather switchboards
 * Surveillance System Android App
 
-**Training**: (Every training has been delivered several times to different companies)
+**Training**: (each course has been delivered several times to different companies)
 
 * Docker
 * Kubernetes
@@ -98,12 +98,12 @@ _Linux, Kubernetes, Docker, Cloud(AWS, Azure, GCP, OpenStack), Python, Go, Elixi
 
 _Palmtree Statistics_ • Oct, 2016 — Dec, 2017
 
-I became the biggest tech authority of the company, directly working with the CEO and the co-founders. Focus on building teams, helping and guiding other colleagues, improve the architecture to include new use cases, increase the reliability of all the applications and automate processes. I also helped in other business related tasks.
-Company left the country and it became my first customer.
+I became the company's top tech authority, working directly with the CEO and the co-founders. My focus was on building teams, helping and guiding colleagues, improving the architecture to support new use cases, increasing the reliability of all the applications and automating processes. I also helped with other business-related tasks.
+The company left the country and became my first customer.
 
 **Main project**:
 
-_Pelota_ was a Football trading system which helped traders to take decisions more accurate and faster than their competitors.
+_Pelota_ was a football trading system that helped traders make more accurate decisions, faster than their competitors.
 
 **Technologies**: 
 
@@ -115,11 +115,11 @@ _Linux, Elixir, Erlang/OTP, Python, Bash, Nginx, AngularJS, Javascript, Docker, 
 
 _Palmtree Statistics_ • Sep, 2015 — Sep, 2016
 
-Palmtree Statistics first tech employee and, therefore, I had to create all the tech environment of Palmtree Statistics to later design, develop and maintain on production SW solutions to help professional sport traders. Directly working with the CEO and the co-founders.
+As Palmtree Statistics' first tech employee, I had to create the company's entire tech environment, and then design, develop and maintain production SW solutions to help professional sports traders. I worked directly with the CEO and the co-founders.
 
 **Main project**:
 
-_Pelota_ was a Football trading system which helped traders to take decisions more accurate and faster than their competitors.
+_Pelota_ was a football trading system that helped traders make more accurate decisions, faster than their competitors.
 
 **Technologies**:
 
@@ -131,11 +131,11 @@ _Linux, Elixir, Erlang/OTP, Python, Bash, Nginx, AngularJS, Javascript, Docker, 
 
 _Ericsson_ • Jun, 2011 — Aug, 2015
 
-Collaborating with several agile teams distributed around the world developing SW tools which were used to optimize mobile (GSM, UMTS and LTE) networks of several vendors like AT&T, Telefonica, Vodafone or Deutsche Telekom. Information traces of the network nodes were analyzed in order to identify and geo-locate issues.
+Collaborating with several agile teams distributed around the world, developing SW tools used to optimize the mobile (GSM, UMTS and LTE) networks of several operators such as AT&T, Telefonica, Vodafone and Deutsche Telekom. Traces from the network nodes were analyzed to identify and geolocate issues.
 
 **Main Project**:
 
-_TPS_ (Trace Processing Server) took traces (network protocol events) and processed them in order to help field engineers to take better decisions.
+_TPS_ (Trace Processing Server) took traces (network protocol events) and processed them to help field engineers make better decisions.
 
 **Technologies**: 
 
@@ -147,7 +147,7 @@ _Java, C++, Python, MySQL, GSM, UMTS, LTE_.
 
 _Ciat_ • Oct, 2009 — Jun, 2011
 
-Being part of a cross-functional team to develop industrial HVAC solutions, mainly for airports, where my responsibility was Software and Hardware related. Start-ups, on-site updates and training were also my tasks.
+Part of a cross-functional team developing industrial HVAC solutions, mainly for airports, where I was responsible for software and hardware. Commissioning, on-site updates and training were also among my tasks.
 
 **Main Project**:
 
@@ -213,7 +213,7 @@ _1995 — 2000_
 
 ### [Kamaji](https://github.com/clastix/kamaji)
 
-Kamaji is a tool aimed to build and operate a Managed Kubernetes Service with a fraction of the operational burden. With Kamaji, you can deploy and operate hundreds of Kubernetes clusters as a hyper-scale cloud provider.
+Kamaji is a tool aimed at building and operating a Managed Kubernetes Service with a fraction of the operational burden. With Kamaji, you can deploy and operate hundreds of Kubernetes clusters as a hyper-scale cloud provider.
 
 ### [Ockam](https://github.com/build-trust/ockam)
 
@@ -221,11 +221,11 @@ Build Applications That Trust Data-in-Motion Across Cloud Services, Beyond Data 
 
 ### [Piton](https://hex.pm/packages/piton)
 
-Piton runs a high available pool of "Pythons" in order to help you with the GIL.</br></br>
+Piton runs a highly available pool of "Pythons" to help you deal with the GIL.</br></br>
 
 ### [Conejo](https://hex.pm/packages/conejo)
 
-Open Source Elixir - OTP Application which will help you to work with RabbitMQ.</br></br>
+Open source Elixir/OTP application that helps you work with RabbitMQ.</br></br>
 
 ### [Cartografo](https://github.com/mendrugory/cartografo)
 
@@ -233,7 +233,7 @@ CLI tool to generate Kubernetes ConfigMaps or Secrets with a lot of data entries
 
 ### [Jenkins Porter](https://github.com/mendrugory/jenkins-porter)
 
-Copy, save or restore jobs between jenkins servers.</br></br>
+Copy, save or restore jobs between Jenkins servers.</br></br>
 
 ### [Nodex](https://github.com/mendrugory/nodex)
 
@@ -245,7 +245,7 @@ Galena is a topic producer-consumer library built on top of GenStage for Elixir.
 
 ### [EnchufeWeb](https://hex.pm/packages/enchufeweb)
 
-Websocket Library written in Elixir.</br></br>
+WebSocket library written in Elixir.</br></br>
 
 ### [Signalrex](https://github.com/mendrugory/signalrex)
 
@@ -253,11 +253,11 @@ Signalr implementation for Elixir.</br></br>
 
 ### [Barenboim](https://hex.pm/packages/barenboim)
 
-Barenboim is an Elixir library which will help you with data streaming dependencies in concurrent flows.</br></br>
+Barenboim is an Elixir library that helps you handle data streaming dependencies in concurrent flows.</br></br>
 
 ### [Torip](https://pypi.python.org/pypi/torip/0.1.5)
 
-Open Source Python library for Tornado web framework to locate IPs or server names.</br></br>
+Open source Python library for the Tornado web framework to locate IPs or server names.</br></br>
 
 
-Visit my [Github](https://github.com/mendrugory) account to find more projects.
+Visit my [GitHub](https://github.com/mendrugory) account to find more projects.

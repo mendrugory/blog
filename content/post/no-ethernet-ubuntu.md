@@ -5,9 +5,9 @@ url: /post/no-ethernet-ubuntu
 index: true
 ---
 
-Some days ago, my Ubuntu warned me that could be upgraded to 22.04, the new LTS version, called *Jammy Jellyfish*. I thought that was the moment and I proceeded. I had to say that I faced several issues, like some issues with *Python3.10* that affected many applications (you know, Ubuntu uses Python a lot) but it was easy to solve just making some re-installation. But I was really upset when I saw that my Ethernet interface was not working.
+A few days ago, Ubuntu told me it could be upgraded to 22.04, the new LTS version called *Jammy Jellyfish*. I thought it was the right moment, so I went ahead. I have to say that I faced several issues, such as some problems with *Python3.10* that affected many applications (you know, Ubuntu uses Python a lot), but they were easy to solve with a few reinstalls. However, I was really upset when I saw that my Ethernet interface was not working.
 
-Ubuntu settings even did not detect the wired connection, but the interface was there:
+The Ubuntu settings did not even detect the wired connection, but the interface was there:
 
 ```bash
 $ sudo lshw -C network
@@ -18,7 +18,7 @@ $ sudo lshw -C network
        ...
 ```
 
-Therefore, Ubuntu had to start the interface at boot time and setting it up using DHCP.
+So Ubuntu had to bring up the interface at boot time and configure it using DHCP.
 
 
 */etc/network/interfaces*
@@ -33,13 +33,13 @@ iface lo inet loopback
 +iface enxe4b98 inet dhcp
 ```
 
-And restart *NetworkManager*:
+Then restart *NetworkManager*:
 
 ```bash
 $ sudo systemctl restart NetworkManager
 ```
 
-The interface was already detected by Ubuntu settings, but it was unmanaged:
+The interface was now detected by the Ubuntu settings, but it was unmanaged:
 
 ```bash
 $ nmcli device
@@ -47,22 +47,22 @@ DEVICE           TYPE      STATE        CONNECTION
 enxe4b98         ethernet  unmanaged    --
 ```
 
-We could apply a workaround to *NetworkManager* in order to make it work:
+We can apply a workaround to *NetworkManager* to make it work:
 
 */etc/NetworkManager/conf.d/allow-unmanaged-devices.conf*
 
-```
+```ini
 [keyfile]
 unmanaged-devices=*,except:type:wifi,except:type:gsm,except:type:cdma,except:type:ethernet
 ```
 
-And restart *NetworkManager*
+And restart *NetworkManager* again:
 
 ```bash
 $ sudo systemctl restart NetworkManager
 ```
 
-Now, your Ubuntu will be connected to Internet using Ethernet.
+Now your Ubuntu machine will be connected to the Internet over Ethernet.
 
 ```bash
 $ nmcli device

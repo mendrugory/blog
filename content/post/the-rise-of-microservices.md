@@ -4,116 +4,28 @@ date: 2016-01-03
 url: /post/the-rise-of-microservices
 ---
 
-<div class="blog-content">
- <div class="paragraph" style="text-align:left;">
-  Who have not heard about
- <a href="https://en.wikipedia.org/wiki/Microservices" target="_blank">
-   microservices
- </a>
-  ?
- <br/>
- </div>
- <span class="imgPusher" style="float:left;height:0px">
- </span>
- <span style="display: table;width:auto;position:relative;float:left;max-width:100%;;clear:left;margin-top:0px;*margin-top:0px">
- <a>
-  <img alt="Picture" class="galleryImageBorder wsite-image" src="/img/8000030_orig.png" style="margin-top: 5px; margin-bottom: 10px; margin-left: 0px; margin-right: 10px; none; max-width:100%"/>
- </a>
- <span class="wsite-caption" style="display: table-caption; caption-side: bottom; font-size: 90%; margin-top: -10px; margin-bottom: 10px; text-align: center;">
- </span>
- </span>
- <div class="paragraph" style="text-align:justify;display:block;">
- <br/>
- <br/>
- <br/>
- <br/>
-  Microservices is a software architecture approach which tries to decouple functionalities which will be served by very focused and small systems. When I say small I mean smaller. These systems will provide their functionalities through a known
- <a href="https://en.wikipedia.org/wiki/Application_programming_interface">
-   API
- </a>
-  .
- <br/>
- <br/>
-  Therefore this approach will help us to scale up our software systems by breaking them up (good bye to monolithic system problems !!) and having several independent systems very focused on their tasks (hello to distributed computing problems !!). It is important to say that any approach will have its advantages and disadvantages.
- <br/>
- <br/>
-  How is microservices very popular even for non-heavy systems if we have to be aware of more systems? In my opinion two factors: The Internet service providers and the container technology.
- <br/>
- <br/>
- </div>
- <hr style="width:100%;clear:both;visibility:hidden;"/>
- <h2 class="wsite-content-title" style="text-align:left;">
-  Internet Service Providers
- <br/>
- </h2>
- <div class="paragraph" style="text-align:left;">
-  Nowadays is too easy to get a server through any of the available Internet service Providers:
- <a href="https://aws.amazon.com" target="_blank">
-   Amazon Web Services
- </a>
-  ,
- <a href="https://www.digitalocean.com/" target="_blank">
-   Digital Ocean
- </a>
-  ,
- <a href="https://www.ovh.com/" target="_blank">
-   OVH
- </a>
-  , ... (Easier in some of them, like AWS or Digital Ocean) But it is also very cheap (a OVH instance per 2,99€ !!). We don't need to buy very expensive servers and having
- <span>
-  <span>
-    skilled people
-  </span>
- </span>
-  only to prepare and take care. This reduces a lot our IT infrastructure costs and gives us the opportunity of taking advantages of our
- <span>
-  <span>
-    skilled people
-  </span>
- </span>
-  to create amazing things instead of wasting time with boring tasks.
- <br/>
- <br/>
- <br/>
- </div>
- <h2 class="wsite-content-title" style="text-align:left;">
-  Container Technology
- <br/>
- </h2>
- <div class="paragraph" style="text-align:left;">
-  Linux Containers or
- <a href="https://linuxcontainers.org/lxc/introduction/" target="_blank">
-   LXC
- </a>
-  gives us the possibility of running several isolated Linux systems within an unique Linux machine. Just the idea is awesome. We can have our applications saved in images and create as many containers (running applications) as we need, hence; the same behavior that we obtain in our development machine will be the behavior that we will see in the production machine.
- <br/>
- <br/>
-  Although was the
- <a href="https://www.docker.com/" target="_blank">
-   Docker
- </a>
-  birth which opened the world of containers to everybody. Docker makes very easy the handling of images and containers and even they offer you an open images store,
- <a href="https://hub.docker.com" target="_blank">
-   Docker Hub
- </a>
-  , by free. But we all agree that we need a private images store because all our code is not open source. In this case, we can install
- <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-private-docker-registry-on-ubuntu-14-04" target="_blank">
-   Docker registry
- </a>
-  in our private server.
- <br/>
- <br/>
- </div>
- <h2 class="wsite-content-title" style="text-align:left;">
-  Conclusion
- <br/>
- </h2>
- <div class="paragraph" style="text-align:left;">
-  Nowadays is too easy having small focus applications running in containers which have been created from images in very cheap servers (usually
- <a href="https://en.wikipedia.org/wiki/Virtual_private_server" target="_blank">
-   VPS
- </a>
-  ). That is all we need to build great things using a microservices architecture, the rest depends on you !!
- <br/>
- </div>
-</div>
+Who hasn't heard about [microservices](https://en.wikipedia.org/wiki/Microservices)?
+
+<p style="text-align:center">
+  <img alt="Microservices" src="/img/8000030_orig.png" style="max-width:300px;width:100%"/>
+</p>
+
+Microservices is a software architecture approach that tries to decouple functionalities, which are then served by very focused, small systems. When I say small, I mean smaller. These systems provide their functionalities through a well-known [API](https://en.wikipedia.org/wiki/Application_programming_interface).
+
+Therefore, this approach helps us scale our software systems by breaking them up (goodbye, monolithic system problems!) into several independent systems, each very focused on its task (hello, distributed computing problems!). It is important to say that every approach has its advantages and disadvantages.
+
+Why are microservices so popular, even for non-heavy systems, if they mean having to look after more systems? In my opinion, there are two factors: Internet service providers and container technology.
+
+## Internet Service Providers
+
+Nowadays it is very easy to get a server from any of the available Internet service providers: [Amazon Web Services](https://aws.amazon.com), [Digital Ocean](https://www.digitalocean.com/), [OVH](https://www.ovh.com/), ... (easier with some of them, like AWS or Digital Ocean). It is also very cheap (an OVH instance for €2.99!). We don't need to buy very expensive servers and have skilled people only to set them up and look after them. This greatly reduces our IT infrastructure costs and gives us the opportunity to use our skilled people to create amazing things instead of wasting their time on boring tasks.
+
+## Container Technology
+
+Linux Containers, or [LXC](https://linuxcontainers.org/lxc/introduction/), give us the possibility of running several isolated Linux systems on a single Linux machine. The idea alone is awesome. We can keep our applications in images and create as many containers (running applications) as we need; hence, the behavior we get on our development machine will be the same behavior we see on the production machine.
+
+However, it was the birth of [Docker](https://www.docker.com/) that opened the world of containers to everybody. Docker makes handling images and containers very easy, and it even offers an open image store, [Docker Hub](https://hub.docker.com), for free. But we all agree that we need a private image store, because not all our code is open source. In that case, we can install a [Docker registry](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-private-docker-registry-on-ubuntu-14-04) on our private server.
+
+## Conclusion
+
+Nowadays it is very easy to have small, focused applications running in containers, created from images, on very cheap servers (usually a [VPS](https://en.wikipedia.org/wiki/Virtual_private_server)). That is all we need to build great things using a microservices architecture; the rest depends on you!

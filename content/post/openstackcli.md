@@ -5,11 +5,11 @@ url: /post/openstackcli
 ---
 
 
-Some days ago I released [openstackcli](https://github.com/mendrugory/docker-openstackcli), a new containerized tool to work with [Openstack API](https://docs.openstack.org/api-quick-start/).
+Some days ago I released [openstackcli](https://github.com/mendrugory/docker-openstackcli), a new containerized tool to work with the [Openstack API](https://docs.openstack.org/api-quick-start/).
 
-The motivation of this project was driven by a missing feature from [OVH's Managed Kubernetes](https://www.ovhcloud.com/en/public-cloud/kubernetes/): Snapshots from in-use volumes.
+This project was motivated by a missing feature in [OVH's Managed Kubernetes](https://www.ovhcloud.com/en/public-cloud/kubernetes/): snapshots of in-use volumes.
 
-If you are already working with Kubernetes, you would like to perform everything in a Kubernetes way, including volume's snapshots, and this is possible as you can see in the [docs](https://kubernetes.io/docs/concepts/storage/volume-snapshots/).
+If you are already working with Kubernetes, you would like to do everything the Kubernetes way, including volume snapshots, and this is possible as you can see in the [docs](https://kubernetes.io/docs/concepts/storage/volume-snapshots/).
 
 That would be as easy as:
 
@@ -23,17 +23,17 @@ spec:
     persistentVolumeClaimName: my-pvc
 ```
 
-But, we should detach the volume before performing the snapshot due to OVH Infrastructure does not support yet to do it with an attached volume. Check the issue [here](https://github.com/ovh/public-cloud-roadmap/issues/77).
+However, we have to detach the volume before taking the snapshot, because OVH's infrastructure does not yet support snapshots of attached volumes. Check the issue [here](https://github.com/ovh/public-cloud-roadmap/issues/77).
 
-The main purpose of performing a snapshot to a non-attached volume is to keep the consistency in the data. Otherwise, no every application is working 24/7. We know that there is some moments where the application is not actually used and we can apply some maintenance tasks, like back-ups. You can find applications which are used during office hours or during some sport events and we can easily detect time windows where they are not used. In this way, we would not need to detach and attach the volumes before and after the snapshots.
+The main purpose of taking a snapshot of a detached volume is to keep the data consistent. On the other hand, not every application is running 24/7. We know that there are moments when the application is not actually being used and we can carry out some maintenance tasks, like backups. There are applications that are only used during office hours or during sporting events, so we can easily detect time windows when they are not in use. In that case, we would not need to detach and reattach the volumes before and after the snapshots.
 
-As we were working with OVH, we know that its Public Cloud is [Openstack](https://www.openstack.org/), why don't we try to work directly against the API?
+Since we were working with OVH and we know that its Public Cloud is [Openstack](https://www.openstack.org/), why not work directly against the API?
 
 ## Openstackcli
 
-If we want to work against the Openstack's API from Kubernetes, we need a container with the necessary software. In this case there are some available docker image, but I packaged mine in order to add some other useful tools like [jq](https://stedolan.github.io/jq/) which will be very useful for the scripts. Now we can launch some Kubernetes [Jobs](https://kubernetes.io/docs/concepts/workloads/controllers/job/) or [CronJobs](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/) in order to perform the snapshots or whatever other maintenance task, like clean them up.
+If we want to work against the Openstack API from Kubernetes, we need a container with the necessary software. There are some Docker images available, but I packaged my own in order to add other tools like [jq](https://stedolan.github.io/jq/), which will be very useful for the scripts. Now we can launch Kubernetes [Jobs](https://kubernetes.io/docs/concepts/workloads/controllers/job/) or [CronJobs](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/) to take the snapshots or perform any other maintenance task, like cleaning them up.
 
-Rememeber that the pod has to have access to the Openstack API
+Remember that the pod needs access to the Openstack API.
 
 *Cronjob example*:
 
@@ -62,7 +62,7 @@ spec:
 
 ## Conclusion
 
-I think that this is a temporary solution, but I expect that it is useful meanwhile.
+I think this is a temporary solution, but I hope it is useful in the meantime.
 
-* [Code](https://github.com/mendrugory/docker-openstackcli) 
+* [Code](https://github.com/mendrugory/docker-openstackcli)
 * [Repository](https://hub.docker.com/repository/docker/mendrugory/openstackcli)

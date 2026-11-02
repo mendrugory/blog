@@ -4,16 +4,15 @@ date: 2018-12-19
 url: /post/python3-7-asyncio-chat
 ---
 
-Python is one of the most used languages because the ramp up is really low. A good example is the API of [ayncio](https://docs.python.org/3/library/asyncio-stream.html) for building [I/O bound applications](https://en.wikipedia.org/wiki/I/O_bound).
+Python is one of the most widely used languages because the learning curve is really gentle. A good example is the API of [asyncio](https://docs.python.org/3/library/asyncio-stream.html) for building [I/O-bound applications](https://en.wikipedia.org/wiki/I/O_bound).
 
-Creating asynchronous code could be really tough, but using asyncio could be a *child's play*.
+Writing asynchronous code can be really tough, but with asyncio it can be *child's play*.
 
-We are going to try to build a simple chat server in this post using **Python 3.7**. As the server will be a TCP server, the clients only need to use [Telnet](https://es.wikipedia.org/wiki/Telnet) to interact with.
-
+We are going to try to build a simple chat server in this post using **Python 3.7**. As it will be a TCP server, the clients only need [Telnet](https://es.wikipedia.org/wiki/Telnet) to interact with it.
 
 ## Echo TCP Server
 
-The first version is an *Echo TCP Server* where the client will receive its messages until it writes *"exit"*.
+The first version is an *Echo TCP Server* where the client receives its own messages back until it writes *"exit"*.
 
 ```python
 import asyncio
@@ -53,13 +52,11 @@ Connected to 127.0.0.1.
 Escape character is '^]'.
 ```
 
-But talking with your self is not always fun, so, let's improve it.
-
-
+But talking to yourself is not always fun, so let's improve it.
 
 ## Chat Server
 
-This server will forward the messages of one client to all the other connected clients.
+This server forwards the messages from one client to all the other connected clients.
 
 ```python
 import asyncio
@@ -101,7 +98,6 @@ async def main():
 asyncio.run(main())
 ```
 
-
 Open several consoles and type:
 
 ```bash
@@ -111,18 +107,18 @@ Connected to 127.0.0.1.
 Escape character is '^]'.
 ```
 
-This one could be considered an actual chat server.
+This one can be considered an actual chat server.
 
 ## Proposal Bonus Track
 
-One of the downsides of Python is the [GIL](https://realpython.com/python-gil/) which limits the number of paralell threads to only one.
+One of the downsides of Python is the [GIL](https://realpython.com/python-gil/) which limits the number of threads running in parallel to only one.
 
-This limitation makes really tough to scale up vertically, especially if your application has state.
+This limitation makes it really tough to scale up vertically, especially if your application has state.
 
-If we want to scale up our chat server (vertical or horizontal), without using other tools than Python, a possible solution would be to add a new TCP server to the *event loop* which would be used to communicate between chat servers.
+If we wanted to scale our chat server (vertically or horizontally) without using any tools other than Python, a possible solution would be to add a new TCP server to the *event loop* which would be used to communicate between chat servers.
 
 ## Conclusion
 
-Building a simple script which works as chat server using Python3.7 and its library asyncio is a good exercise.
+Building a simple script that works as a chat server using Python 3.7 and its asyncio library is a good exercise.
 
 Enjoy !!
